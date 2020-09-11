@@ -1,0 +1,19 @@
+footer {
+  text-align: center;
+  color: #af2020;
+  padding: 1%;
+  font-size: 15px;
+  background-color: #2f0fe2;
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    color: #c5a69d;
+  }
+}
+
+.cont1 {
+  background-color: #8e85c5;
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */
