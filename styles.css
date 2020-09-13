@@ -16,4 +16,15 @@ footer {
   background-color: #8e85c5;
   color: red;
 }
+
+* {
+  margin: 0;
+}
+
+.middleMiddle img {
+  border-radius: 10%;
+  float: left;
+  height: 200px;
+  padding-top: 0;
+}
 /*# sourceMappingURL=styles.css.map */
