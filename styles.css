@@ -1,30 +1,33 @@
-footer {
-  text-align: center;
-  color: #af2020;
-  padding: 1%;
-  font-size: 15px;
-  background-color: #2f0fe2;
-}
-
-@media only screen and (max-width: 800px) {
-  footer {
-    color: #c5a69d;
-  }
-}
-
-.cont1 {
-  background-color: #8e85c5;
-  color: red;
-}
-
 * {
   margin: 0;
 }
 
-.middleMiddle img {
-  border-radius: 10%;
-  float: left;
-  height: 200px;
-  padding-top: 0;
+.logo {
+  height: 300px;
+  width: 400px;
+}
+
+#socialMedia li {
+  list-style-type: none;
+  margin: 1px;
+  padding: 1%;
+  display: inline;
+  overflow: hidden;
+  position: relative;
+  bottom: 0%;
+  float: right;
+}
+
+.social {
+  color: blue;
+  text-decoration: none;
+  margin-top: 110px;
+}
+
+.backgroundImg-Main {
+  background-image: url(background-img/1-background-MAIN-Part-Pag.jpg);
+  width: auto;
+  height: 1100px;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=styles.css.map */
