@@ -10,38 +10,66 @@
 
 <body>
     <div class="container">
-        <div class="backgroundImg-Main">
-            <div class="buttonsToFloatOnTopEverything">
-                <img class="logo" src="logo-img/LogoProiect.webp" alt="logo-img">
-                <form>
-                    <ul class="logInSingUp">
-
-                        <li><button type="button" class="logIn" onclick="">Log In</button></li>
-                        <li><button type="button" class="singUp" onclick="">Sign Up</button></li>
-                    </ul>
-                    <ul class="navigationButtons">
-                        <li><button type="button" onclick=""><i class="fa fa-home" aria-hidden="true"></i></button>Home
-                        </li>
-                        <li><button type="button" onclick=""><i class="fa fa-info-circle"
-                                    aria-hidden="true"></i></button>About</li>
-                        <li><button type="button" onclick=""><i class="fa fa-calendar"
-                                    aria-hidden="true"></i></button>Services</li>
-                        <li><button type="button" onclick=""><i class="fa fa-desktop"
-                                    aria-hidden="true"></i></button>Projects</li>
-                        <li><button type="button" onclick=""><i class="fa fa-pencil-square-o"
-                                    aria-hidden="true"></i></button>Register</li>
-                        <li><button type="button" onclick=""><i class="fa fa-phone"
-                                    aria-hidden="true"></i></button>Contact</li>
-                    </ul>
-                <div class="mainPage">
-                    <ul class="founders">
-                        <li><img class="AndreiSoporean"
+        <div class="arrangeBackgroundImg">
+            <div class="mainPage">
+                <div class="mainPageTop">
+                    <div class="logoSection">
+                        <img class="logo" src="logo-img/LogoProiect.webp" alt="logo-img">
+                    </div>
+                    <div class="searchBarSection">
+                        <input class="searchBar" type="text" placeholder="Search..." name="search">
+                        <button class="buttonSearch" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+                            Search</button>
+                    </div>
+                    <div class="logInSignUp">
+                        <button type="button" class="logIn" onclick=""><i class="fa fa-sign-out"></i>Log In</button>
+                        <button type="button" class="signUp" onclick="">Sign Up</button>
+                    </div>
+                    <nav class="navigationButtonsSection">
+                        <nav class="navigationButtons">
+                            <nav class="Home"><button type="button" onclick=""><i class="fa fa-home"
+                                        aria-hidden="true"></i></button>Home</nav>
+                            <nav class="About"><button type="button" onclick=""><i class="fa fa-info-circle"
+                                        aria-hidden="true"></i></button>About</nav>
+                            <nav class="Services"><button type="button" onclick=""><i class="fa fa-calendar"
+                                        aria-hidden="true"></i></button>Services</nav>
+                            <nav class="Projects"><button type="button" onclick=""><i class="fa fa-desktop"
+                                        aria-hidden="true"></i></button>Projects</nav>
+                            <nav class="Register"><button type="button" onclick=""><i class="fa fa-pencil-square-o"
+                                        aria-hidden="true"></i></button>Register</nav>
+                            <nav class="Contact"><button type="button" onclick=""><i class="fa fa-phone"
+                                        aria-hidden="true"></i></button>Contact</nav>
+                        </nav>
+                    </nav>
+                    <div class="iconScrollMouseArrowSection">
+                        <div class="iconScrollMouse"><img src="icons/mouse-scroll.png" alt="Scroll the page">
+                            <label>Scroll</label>
+                        </div>
+                        <div class="arrowScrollUp">
+                            <button type="button" onclick=""><label>Scroll Up</label><img
+                                    src="icons/arrow-scroll-Up.png">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="translateSiteSection">
+                        <div class="translateSite">
+                            <button type="button" onclick=""><img class="translateRO" src="icons/Romania-Flag-icon.png"
+                                    alt="Tradus in limba Romana"><label>Traduce acest site in ROMANA.</label></button>
+                            <button type="button" onclick=""><img class="translateEN" src="icons/GB-Flag-Icon.png"
+                                    alt="Translate to English"><label>Translate this site in to
+                                    ENGLISH.</label></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="foundersSection">
+                    <div class="founers">
+                        <div><img class="AndreiSoporean"
                                 src="candidat-img/2-Candidat-Architect-Photograph-Andrei-Soporean.png"
                                 alt="Imagin with Founder Andrei">
-                            
-                            <label>Soporean Andrei</label>
+                            <br>
+                            <label>Soporean Andrei</label><br>
                             <label>Architect/Photograph</label>
-
+                            <br>
                             <button type="button" onclick="">
                                 <a class="socialRobertTwitter" href="https://www.twitter.com" target="_blank">
                                     <i class="fa fa-twitter"></i></a></button>
@@ -49,15 +77,15 @@
                             <button type="button" onclick="">
                                 <a class="socialRobertInsta" href="https://www.instagram.com/" target="_blank">
                                     <i class="fa fa-instagram"></i></a></button>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <img class="RobertDiaconeasa"
                                 src="candidat-img/1-Candidat-Web-Developer-Designer-Robert-Diaconeasa.png"
                                 alt="Imagin with Founder Robert">
-                            
-                            <label>Diaconeasa Robert</label>
+                            <br>
+                            <label>Diaconeasa Robert</label><br>
                             <label>Web Developer/Designer</label>
-
+                            <br>
                             <button type="button" onclick="">
                                 <a class="socialAndreiTwitter" href="https://www.twitter.com" target="_blank">
                                     <i class="fa fa-twitter"></i></a></button>
@@ -65,14 +93,14 @@
                             <button type="button" onclick="">
                                 <a class="socialAndreiInsta" href="https://www.instagram.com/" target="_blank">
                                     <i class="fa fa-instagram"></i></a></button>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <img class="JasonMomoa" src="candidat-img/3-Candidat-Co-Fonder-blogger-Jason-Momoa.png"
                                 alt="Imagin with Founder Jason">
-                            
-                            <label>Momoa Jason</label>
+                            <br>
+                            <label>Momoa Jason</label><br>
                             <label>Co-Fonder/Blogger</label>
-
+                            <br>
                             <button type="button" onclick="">
                                 <a class="socialMomoaTwitter" href="https://www.twitter.com" target="_blank">
                                     <i class="fa fa-twitter"></i></a></button>
@@ -80,49 +108,14 @@
                             <button type="button" onclick="">
                                 <a class="socialMomouaInsta" href="https://www.instagram.com/" target="_blank">
                                     <i class="fa fa-instagram"></i></a></button>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
-                    <div class="iconScrollMouse">
-
-                        <img src="icons/mouse-scroll.png" alt="Scroll the page">
-                        <label>Scroll</label>
-                    </div>
-                    
-                    <div class="arrowScrollUp">
-
-                        <button type="button" onclick=""><a href="" alt="Scroll the page Up"><img
-                                    src="icons/arrow-scroll-Up.png">
-                            </a><label>Scroll Up</label></button>
-
-                    </div>
-                    <ul class="translateSite">
-
-                        <li><a href=""><img class="translateRO" src="icons/Romania-Flag-icon.png"
-                                    alt="Tradus in limba Romana"></a><label>Traduce acest site in ROMANA</label>
-                        </li>
-                        <li><a href=""><img class="translateEN" src="icons/GB-Flag-Icon.png"
-                                    alt="Translate to English"></a><label>Translate this site in to ENGLISH</label>
-                        </li>
-                    </ul>
-                    <ul id="socialMedia">
-
-                        <li><a class="social" href="https://www.instagram.com/" target="_blank"><i
-                                    class="fa fa-instagram"></i></a></li>
-                        <li><a class="social" href="https://facebook.com" target="_blank"><i
-                                    class="fa fa-facebook"></i></a></li>
-                        <li><a class="social" href="https://www.twitter.com" target="_blank"><i
-                                    class="fa fa-twitter"></i></a></li>
-                    </ul>
-                </form>
-            </div>
-        </div>
-        <div class="homePage">
-            <div class="backgroundImg-Home">
-
             </div>
 
-            <!--Bara de search central top; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME 
+            <div class="homePage">
+
+                <!--Bara de search central top; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME 
 
 la CONTACT stanga central; Un motto si Logo cental centru dispus pe 2 coloane; buline centru drapta 
 
@@ -132,10 +125,10 @@ la CONTACT stanga central; Un motto si Logo cental centru dispus pe 2 coloane; b
 
 retelile de socializare drapta colt jos; backdround inage '2-background img HOME Part Pag'-->
 
-        </div>
-        <div class="aboutPage">
+            </div>
+            <div class="aboutPage">
 
-            <!--Logo stanga sus; Bara de search central top; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME 
+                <!--Logo stanga sus; Bara de search central top; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME 
 
 la CONTACT stanga central; Scurt instoric despre pagina central centru paginii;  buline centru drapta 
 
@@ -145,9 +138,9 @@ la CONTACT stanga central; Scurt instoric despre pagina central centru paginii; 
 
 retelile de socializare drapta colt jos; backdround inage '3-background img About Part Pag' -->
 
-        </div>
-        <div class="servicePage">
-            <!--Logo stanga sus; Bara de search central top; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME 
+            </div>
+            <div class="servicePage">
+                <!--Logo stanga sus; Bara de search central top; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME 
 
 la CONTACT stanga central; Felul muncii pe scurt cu pictograme dispuse pe 2 coloane si 3 randuri, central centru 
 
@@ -157,9 +150,9 @@ sageata (cand apesi pe ea sa aiba ancor magina MAIN) drapta colt jos; butoanele 
 
 jos; retelile de socializare drapta colt jos; backdround inage '4-background img Services Part Pag'   -->
 
-        </div>
-        <div class="projectsPage">
-            <!-- butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME la CONTACT stanga central; 3 coloane cu 3 randuri de 
+            </div>
+            <div class="projectsPage">
+                <!-- butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME la CONTACT stanga central; 3 coloane cu 3 randuri de 
 
 clip de pe YOUTUBE sau poze incarcate de lpe facebook centrate central centru;  buline centru drapta 
 
@@ -171,10 +164,10 @@ jos; retelile de socializare drapta colt jos; backdround inage slide show de la 
 
 peste ele un Layer cu '5 background img Projects Part Pag' -->
 
-        </div>
-        <div class="registerPage">
+            </div>
+            <div class="registerPage">
 
-            <!-- Logo stanga sus; Butoanele de la HOME la CONTACT stanga central; formular de inscriere si unu de feedback pe 2 coloane , 
+                <!-- Logo stanga sus; Butoanele de la HOME la CONTACT stanga central; formular de inscriere si unu de feedback pe 2 coloane , 
 
 ambele centrate cental centru   buline centru drapta 
 
@@ -184,10 +177,10 @@ sageata (cand apesi pe ea sa aiba ancor magina MAIN) drapta colt jos; butoanele 
 
 jos; retelile de socializare drapta colt jos; backdround inage '6-background img Register Part Pag' -->
 
-        </div>
-        <div class="contactPage">
+            </div>
+            <div class="contactPage">
 
-            <!--Logo stanga sus; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME la CONTACT stanga central; 
+                <!--Logo stanga sus; butoalele de LogIn/SingUp dreapta colt top; Butoanele de la HOME la CONTACT stanga central; 
 
 scris adresa de mail numar de telefon nume prenume si ce va trebui scrise de utilizator si noi il v-om contacta, 
 
@@ -201,14 +194,23 @@ sageata (cand apesi pe ea sa aiba ancor magina MAIN) drapta colt jos; butoanele 
 
 jos; retelile de socializare drapta colt jos; backdround inage 7-background img Contact Part Pag-->
 
+            </div>
         </div>
     </div>
 </body>
 <footer>
-    <!-- <p><i class="fa fa-copyright" aria-hidden="true"><label>Uite asa se crapa neuronii.</label><i
-                class="fa fa-registered" aria-hidden="true"></i></i> -->
-    
-        <!-- Un footer care sa fie ceva de genu marca inregistrata  si pe ea sa fie ca o bara transparenta si sa aibe sageata scroll up cu o 
+    <!-- <ul id="socialMedia">
+        <li><a class="social" href="https://www.instagram.com/" target="_blank"><i
+                    class="fa fa-instagram"></i></a></li>
+    <p><i class="fa fa-copyright" aria-hidden="true"><label>Uite asa se crapa neuronii.</label><i
+                class="fa fa-registered" aria-hidden="true"></i></i>
+        <li><a class="social" href="https://facebook.com" target="_blank"><i
+                    class="fa fa-facebook"></i></a></li>
+    </ul> -->
+
+
+
+    <!-- Un footer care sa fie ceva de genu marca inregistrata  si pe ea sa fie ca o bara transparenta si sa aibe sageata scroll up cu o 
 
 sageata (cand apesi pe ea sa aiba ancor magina MAIN) drapta colt jos; butoanele de tradus pagina dreapta colt 
 
