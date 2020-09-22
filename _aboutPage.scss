@@ -1,0 +1,35 @@
+.divCuPeuri2{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.peuri2{
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-gap: 60%;
+    grid-template-rows: 1fr 1fr;
+}
+.unu2{
+    height: 100%;
+    width: 100%;
+    margin-right: 50%;
+    color: ivory;
+    background-color: rgba(57, 139, 19, 0.376);
+    grid-row: 1/2;
+    /*text*/
+}
+.doi2{
+    height: 100%;
+    width: 100%;
+    color: red;
+    background-color: rgba(139, 69, 19, 0.376);
+    /*logo*/
+    grid-row: 2/3;
+}

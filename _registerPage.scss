@@ -1,0 +1,16 @@
+.divCuPeuri5{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.unu5{
+    background-color: rgba(139, 69, 19, 0.376);
+    margin-top: 28%;
+    height: 100%;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}

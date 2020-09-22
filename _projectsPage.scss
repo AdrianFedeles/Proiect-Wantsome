@@ -1,0 +1,60 @@
+.divCuPeuri4{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.peuri4{
+    height: 100%;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+.unu4{
+    background-color: rgb(252, 0, 0);
+    height: 150px;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.doi4{
+    background-color: rgb(252, 235, 0);
+    height: 150px;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.trei4{
+    background-color: rgb(21, 252, 0);
+    height: 150px;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.patru4{
+    background-color: rgb(0, 252, 231);
+    height: 150px;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.cinci4{
+    background-color: rgb(17, 0, 252);
+    height: 150px;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row:2/3;
+}
+.sase4{
+    background-color: rgb(252, 0, 252);
+    height: 150px;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}

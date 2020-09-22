@@ -10,11 +10,12 @@
     width: 100%;
     height: 100%;
     display: grid;
+    grid-gap: 20px blue;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .mainPage{
     grid-row: 1/2;
-    height: 950px;
+    height: 1000px;
     width: 100%;
     background-image: url(background-img/1-background-MAIN-Part-Pag.jpg);
     background-size: cover;
@@ -22,7 +23,7 @@
 }
 .homePage{
     grid-row: 2/3;
-    height: 950px;
+    height: 1000px;
     width: 100%;
     background-image: url(background-img/2-background-img-HOME-Part-Pag.jpg);
     background-size: cover;
@@ -30,7 +31,7 @@
 }
 .aboutPage{
     grid-row: 3/4;
-    height: 950px;
+    height: 1000px;
     width: 100%;
     background-image: url(background-img/3-background-img-About-Part-Pag.jpg);
     background-size: cover;
@@ -38,7 +39,7 @@
 }
 .servicePage{
     grid-row: 4/5;
-    height: 100%;
+    height: 1000px;
     width: 100%;
     background-image: url(background-img/4-background-img-Services-Part-Pag.jpg);
     background-size: cover;
@@ -47,7 +48,7 @@
 }
 .projectsPage{
     grid-row: 5/6;
-    height: 100%;
+    height: 1000px;
     width: 100%;
     background-image: url(background-img/5-background-img-Projects-Part-Pag.webp);
     background-size: cover;
@@ -55,7 +56,7 @@
 }
 .registerPage{
     grid-row: 6/7;
-    height: 100%;
+    height: 1000px;
     width: 100%;
     background-image: url(background-img/6-background-img-Register-Part-Pag.jpg);
     background-size: cover;
@@ -63,7 +64,7 @@
 }
 .contactPage{
     grid-row: 7/8;
-    height: 100%;
+    height: 1000px;
     width: 100%;
     background-image: url(background-img/7-background-img-Contact-Part-Pag.jpg);
     background-size: cover;

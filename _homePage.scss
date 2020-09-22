@@ -1,9 +1,36 @@
-// .homePage{
-//     grid-row: 3/4;
-//     position: absolute;
-//     height: 100%;
-//     width: 100%;
-//     background-image: url(background-img/2-background-img-HOME-Part-Pag.jpg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// }
+.divCuPeuri1{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.peuri1{
+    height: 100%;
+    width: 100%;
+    margin-top: 8%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-gap: 50%;
+    grid-template-columns: 1fr 1fr;
+}
+.unu1{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    color: rgb(255, 0, 0);
+    background-color: rgba(139, 69, 19, 0.376);
+    /*text*/
+}
+.logoHomePag{
+    height: 100%;
+    width: 100%;
+    /*logo*/
+    grid-column: 2/3;
+}
+.logo1{
+    width: 300%;
+    height: 80%;
+}
