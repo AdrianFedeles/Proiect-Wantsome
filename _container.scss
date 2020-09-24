@@ -10,14 +10,36 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-gap: 20px blue;
+    grid-gap: 10px;
+    background: linear-gradient(to bottom
+    
+    , #1fc3c3
+    , #1593bd
+    , #4088cf
+    , #5493db
+    , #519cff
+    , #4f88d1
+    , #1a7c9c
+    , #0133a8
+    , #034d8a
+    , #0b5c1f
+    , #000000
+    , #01ddff
+    , #00eaff
+    , #024b2c
+    , #044d3a
+    , #86ccfc
+    , #c9e1f5
+    , #6bb1f6
+    , #688dfd
+    );
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .mainPage{
     grid-row: 1/2;
     height: 1000px;
     width: 100%;
-    background-image: url(background-img/1-background-MAIN-Part-Pag.jpg);
+    background-image: url(background-img/1-background-MAIN-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -25,7 +47,7 @@
     grid-row: 2/3;
     height: 1000px;
     width: 100%;
-    background-image: url(background-img/2-background-img-HOME-Part-Pag.jpg);
+    background-image: url(background-img/2-background-img-HOME-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -33,7 +55,7 @@
     grid-row: 3/4;
     height: 1000px;
     width: 100%;
-    background-image: url(background-img/3-background-img-About-Part-Pag.jpg);
+    background-image: url(background-img/3-background-img-About-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -41,7 +63,7 @@
     grid-row: 4/5;
     height: 1000px;
     width: 100%;
-    background-image: url(background-img/4-background-img-Services-Part-Pag.jpg);
+    background-image: url(background-img/4-background-img-Services-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -50,15 +72,16 @@
     grid-row: 5/6;
     height: 1000px;
     width: 100%;
-    background-image: url(background-img/5-background-img-Projects-Part-Pag.webp);
+    background-image: url(background-img/architectural-project1.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .registerPage{
     grid-row: 6/7;
     height: 1000px;
     width: 100%;
-    background-image: url(background-img/6-background-img-Register-Part-Pag.jpg);
+    background-image: url(background-img/6-background-img-Register-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -66,7 +89,7 @@
     grid-row: 7/8;
     height: 1000px;
     width: 100%;
-    background-image: url(background-img/7-background-img-Contact-Part-Pag.jpg);
+    background-image: url(background-img/7-background-img-Contact-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }

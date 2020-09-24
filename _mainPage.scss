@@ -1,6 +1,7 @@
 /*tell the division to be a grid, we put rows and columns to put the elements where we won't*/
 
 .mainPageTop{
+    //background-color: rgba(0, 0, 0, 0.397);
     position: fixed;
     width: 100%;
     display: grid;
@@ -16,11 +17,13 @@
 /*logo section arrange the logo*/
 
 .logoSection{
+    //background-color: rgba(0, 0, 0, 0.397);
     width: 100%;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 .logo{
+    // background-color: rgba(0, 0, 0, 0.123);
     margin-top: 0;
     margin-left: 5%;
     width: 50%;
@@ -30,6 +33,7 @@
 /*search bar section arrange the search bar*/
 
 .searchBarSection{
+    
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 25px;
@@ -42,10 +46,26 @@
     grid-template-columns: 1fr 5px 100px;
 }
 .searchBar{
+    background: linear-gradient(150deg
+    , #1900ff49
+    , #1100ff2a
+    , #00b7ff2a
+    , #00aeff75
+    );
+    border: none;
+    border-radius: 15%;
+    background-color: rgba(138, 18, 18, 0.479);
     grid-column: 1/2;
     height: 25px;
 }
 .buttonSearch{
+    background: linear-gradient(150deg
+    , #00e1ff75
+    , #0004ff49
+    );
+    border-radius: 30%;
+    border: none;
+    background-color: rgba(138, 18, 18, 0.479);
     grid-column: 3/4;
     height: 30px;
 }
@@ -67,10 +87,24 @@
     margin-left: 50%;
 }
 .logIn{
+    background: linear-gradient(right
+    , #00e1ff75
+    , #0004ff49
+    );
+    border-radius: 30%;
+    border: none;
+    background-color: rgba(138, 18, 18, 0.479);
     grid-column: 2/3;
     width: 100%;
 }
 .signUp{
+    background: linear-gradient(left
+    , #00e1ff75
+    , #0004ff49
+    );
+    border-radius: 30%;
+    border: none;
+    background-color: rgba(138, 18, 18, 0.479);
     width: 100%;
     grid-column: 4/5;
 }
@@ -91,22 +125,22 @@
     grid-gap: 20px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.Home{
+.Home.button{
     grid-row: 1/2;
 }
-.About{
+.About.button{
     grid-row: 2/3;
 }
-.Services{
+.Services.button{
     grid-row: 3/4;
 }
-.Projects{
+.Projects.button{
     grid-row: 4/5;
 }
-.Register{
+.Register.button{
     grid-row: 5/6;
 }
-.Contact{
+.Contact.button{
     grid-row: 6/7;
 }
 
@@ -133,7 +167,7 @@
     margin-left: 135px;
 }
 .iconScrollMouse img{
-    //background-color: rgb(44, 43, 43);
+    background-color: rgba(0, 0, 0, 0.397);
     width: 20px;
     margin-top: 40px;
     margin-left: 45%;
@@ -147,6 +181,7 @@
     width: 50%;
 }
 .arrowScrollUp button{
+    color: rgba(0, 0, 255, 0.637);
     background-color: rgba(0, 0, 0, 0);
     width: 30%;
     height: 25%;
@@ -168,7 +203,17 @@
     width: 50%;
 }
 .translateSite button{
-    background-color: rgba(94, 93, 93, 0);
+    background: linear-gradient(300deg
+    , #1900ff49
+    , #1100ff2a
+    , #00b7ff2a
+    , #00aeff75
+    );
+    border: none;
+    margin-bottom: 15px;
+    
+    //background-color: rgba(0, 0, 0, 0.397);
+    //background-color: rgba(94, 93, 93, 0);
 
 }
 .translateSite .translateEN{
@@ -185,6 +230,7 @@
 /*Founders section arrange the Founders*/
 
 .foundersSection{
+    
     height: 100%;
     display: flex;
     justify-content: center;
@@ -194,6 +240,7 @@
     grid-template-rows: 1fr 1fr 1fr;
 }
 .founers{
+    
     //margin-top: 5%;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -207,12 +254,18 @@
     "andrei-area   robert-area   momoa-area";
 }
 .AndreiSoporean{
+    border-radius: 20%;
+    border: solid 5px rgba(192, 192, 192, 0.26);
     grid-area: andrei-area;
 }
 .RobertDiaconeasa{
+    border-radius: 20%;
+    border: solid 5px rgba(192, 192, 192, 0.26);
     grid-area: robert-area;
 }
 .JasonMomoa{
+    border-radius: 20%;
+    border: solid 5px rgba(192, 192, 192, 0.26);
     grid-area: momoa-area;
 }
 
