@@ -129,7 +129,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-bottom: 10%;
   display: -ms-grid;
   display: grid;
@@ -139,6 +139,7 @@
 }
 
 .Home.button {
+  color: blue;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
@@ -176,7 +177,6 @@
 
 /*Icon scroll mouse arrow section arrange the Icon scroll mouse arrow overall*/
 .iconScrollMouseArrowSection {
-  margin-top: 13%;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -197,45 +197,55 @@
 }
 
 .iconScrollMouse {
-  width: 50%;
+  margin-left: 30%;
   height: 70%;
 }
 
 .iconScrollMouse label {
-  margin-left: 135px;
+  color: #228fd8;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 64%;
 }
 
 .iconScrollMouse img {
-  background-color: rgba(0, 0, 0, 0.397);
-  width: 20px;
-  margin-top: 40px;
-  margin-left: 45%;
-  height: 40px;
+  width: 20%;
+  margin-top: 15%;
+  margin-left: 70%;
+  height: 60%px;
 }
 
 .arrowScrollUp {
-  width: 35%;
+  width: 30%;
 }
 
 .arrowScrollUp img {
-  width: 50%;
+  border: none;
+  border-radius: 50%;
+  height: 30%;
+  width: 40%;
 }
 
 .arrowScrollUp button {
-  color: rgba(0, 0, 255, 0.637);
-  background-color: rgba(0, 0, 0, 0);
-  width: 30%;
-  height: 25%;
+  color: #228fd8;
+  background-color: rgba(255, 0, 0, 0);
+  width: 45%;
+  height: 30%;
   margin-top: 15%;
   margin-left: 250%;
+  border-radius: 50%;
   border: none;
+}
+
+.arrowScrollUp label {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 /*Translate site section arrange the Translate site*/
 .translateSiteSection {
   height: 145px;
   margin-left: 49%;
-  margin-top: 10%;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
@@ -248,7 +258,10 @@
 .translateSite button {
   background: linear-gradient(300deg, #1900ff49, #1100ff2a, #00b7ff2a, #00aeff75);
   border: none;
-  margin-bottom: 15px;
+}
+
+.translateSite button {
+  background: linear-gradient(300deg, #1900ff49, #1100ff2a, #00b7ff2a, #00aeff75);
 }
 
 .translateSite .translateEN {
@@ -337,7 +350,7 @@
   height: 100%;
   display: -ms-grid;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 15px;
   background: -webkit-gradient(linear, left top, left bottom, from(#1fc3c3), color-stop(#1593bd), color-stop(#4088cf), color-stop(#5493db), color-stop(#519cff), color-stop(#4f88d1), color-stop(#1a7c9c), color-stop(#0133a8), color-stop(#034d8a), color-stop(#0b5c1f), color-stop(#000000), color-stop(#01ddff), color-stop(#00eaff), color-stop(#024b2c), color-stop(#044d3a), color-stop(#86ccfc), color-stop(#c9e1f5), color-stop(#6bb1f6), to(#688dfd));
   background: linear-gradient(to bottom, #1fc3c3, #1593bd, #4088cf, #5493db, #519cff, #4f88d1, #1a7c9c, #0133a8, #034d8a, #0b5c1f, #000000, #01ddff, #00eaff, #024b2c, #044d3a, #86ccfc, #c9e1f5, #6bb1f6, #688dfd);
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
