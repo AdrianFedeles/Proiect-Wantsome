@@ -7,29 +7,29 @@
     grid-template-rows: 1fr 1fr 1fr;
 }
 .peuri1{
-    height: 100%;
-    width: 100%;
     grid-column: 2/3;
     grid-row: 2/3;
     display: grid;
-    grid-gap: 50%;
+    grid-gap: 10%;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
-.unu1{
-    height: 100%;
-    width: 100%;
+.logo2{
+    width: 65%;
     grid-column: 1/2;
-    color: rgb(255, 0, 0);
-    background-color: rgba(139, 69, 19, 0.376);
-    /*text*/
-}
-.logoHomePag{
-    height: 100%;
-    width: 100%;
-    /*logo*/
-    grid-column: 2/3;
+    grid-row: 1/2;
 }
 .logo1{
-    width: 300%;
-    height: 80%;
+    width: 130%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.mottoSiteHomePage{
+    margin-left: 70%;
+    width: 100%;
+    font-size: 20px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-weight: bold;
+    color: rgb(34, 143, 216);
 }
