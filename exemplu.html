@@ -6,19 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Proiect.</title>
     <style>
+.text-reflect, .text-reflect:before, .text-reflect span {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 
+.text-reflect, .text-reflect:before, .text-reflect:after {
+  position: relative;
+}
+
+
+.text-reflect:before {
+  content: 'CSS reflect';
+  top: 95px;
+  transform: scale(1, -1);
+  backface-visibility: visible; 
+  z-index: 1;
+}
+
+.text-reflect:after {
+  content: '';
+  display: block;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 60px; 
+  background-image: linear-gradient(to bottom, rgba(255,255,255, .4) 0%, rgba(255, 255, 255, 1) 50%);
+  z-index: 2;
+}
     </style>
 </head>
 <body>
-  <select name="cursuri" multiple>
-    <option value="java">Java</option>
-    <option value="python">Python</option>
-    <option value="cplusplus">C++</option>
-    <option value="javascript">JavaScript</option>
-    </select>
+  <h1>
+    Simple<strong>;</strong>
+    Subtle<strong>;</strong>
     
-    
-    
+    <h2 class="text-reflect">
+      CSS Reflect
+    </h2>
+  </h1>
 <script>
 </script>
 </body>

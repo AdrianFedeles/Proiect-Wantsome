@@ -1,4 +1,4 @@
-.divCuPeuri2{
+.about-H2-P{
     display: flex;
     justify-content: center;
     display: grid;
@@ -6,7 +6,7 @@
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
 }
-.peuri2{
+.aboutSectionWithH2P{
     height: 100%;
     width: 100%;
     margin-top: 20%;
@@ -16,20 +16,26 @@
     grid-gap: 60%;
     grid-template-rows: 1fr 1fr;
 }
-.unu2{
+.aboutPage-h2Section{
     height: 100%;
     width: 100%;
     margin-right: 50%;
-    color: ivory;
-    background-color: rgba(57, 139, 19, 0.376);
+    color: rgb(112, 175, 235);
+    // background-color: rgba(57, 139, 19, 0.376);
     grid-row: 1/2;
-    /*text*/
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
 }
-.doi2{
+.aboutPage-pSection{
     height: 100%;
     width: 100%;
-    color: red;
-    background-color: rgba(139, 69, 19, 0.376);
-    /*logo*/
+    color: rgb(112, 175, 235);
+    background-color: rgba(139, 69, 19, 0);
+    font-weight: bold;
+    font-size: 16px;
+    // font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
     grid-row: 2/3;
 }

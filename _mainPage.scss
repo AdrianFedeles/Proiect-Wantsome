@@ -1,13 +1,22 @@
 /*tell the division to be a grid, we put rows and columns to put the elements where we won't*/
 
 .mainPageTop{
+    // z-index: 1;
+
+
+
+
+
+
     //background-color: rgba(0, 0, 0, 0.397);
-    position: fixed;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
+    position: fixed;
+
     /*a little exercise with display flex to see that it works and works*/
     // display: flex;
     // justify-content: space-between;
@@ -17,6 +26,17 @@
 /*logo section arrange the logo*/
 
 .logoSection{
+    // position: relative;
+    // position: fixed;
+    // z-index: 1;
+
+
+
+
+
+
+
+
     //background-color: rgba(0, 0, 0, 0.397);
     width: 100%;
     grid-column: 1/2;
@@ -33,7 +53,17 @@
 /*search bar section arrange the search bar*/
 
 .searchBarSection{
-    
+    // position: relative;
+    // position: fixed;
+    // z-index: 1;
+
+
+
+
+
+
+
+
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 25px;
@@ -74,6 +104,16 @@
 /*Log In / Sign Up  section arrange the Log In / Sign Up*/
 
 .logInSignUp{
+    // position: relative;
+    // position: fixed;
+    // z-index: 1;
+
+
+
+
+
+
+
     padding-right: 0;
     grid-column: 3/4;
     grid-row: 1/2;
@@ -113,10 +153,21 @@
 /*Navigation buttons section arrange the Navigation buttons section*/
 
 .navigationButtonsSection{
+    // position: relative;
+    // position: fixed;
+    // z-index: 2;
+
+
+
+
+
     grid-column: 1/2;
     grid-row: 2/3;
 }
 .navigationButtons{
+    // position: fixed;
+    // z-index: 2;
+
     color: rgb(14, 255, 114);
     align-items: center;
     margin-left: 10%;
@@ -165,16 +216,38 @@
 /*Icon scroll mouse arrow section arrange the Icon scroll mouse arrow overall*/
 
 .iconScrollMouseArrowSection{
+    // position: relative;//probabil
+    // position: fixed;
+    // z-index: 1;
+
+
+
+
+
+
+
+
+
+
     //margin-top: 15%;
     //background-color: rgb(122, 121, 121);
     grid-column: 2/3;
     grid-row: 3/4;
     display: flex;
     flex-direction: row;
-    height: 40%;
+    height: 60%;
+    margin-top: 20%;
     align-items: center;
 }
 .iconScrollMouse{
+    // position: relative;
+    // position: fixed;
+    // z-index: 1;
+
+
+
+
+
     //background-color: rgb(95, 94, 94);
     margin-left: 30%;
     //width: 50%;
@@ -185,7 +258,7 @@
     font-size: 20px;
     font-weight: bold;
     //background-color: rgb(236, 3, 3);
-    margin-left: 62%;
+    margin-left: 64%;
 }
 .iconScrollMouse img{
 
@@ -195,12 +268,20 @@
     , #0004ff67
     );
     // background-color: rgba(0, 0, 0, 0.397);
-    width: 15%;
-    margin-top: 15%;
+    width: 20%;
+    margin-top: 10%;
     margin-left: 70%;
-    height: 50%;
+    height: 60%;
 }
 .arrowScrollUp{
+    // position: relative;
+    // position: fixed;
+    // z-index: 1;
+
+
+
+
+
     //background-color: rgb(22, 22, 22);
     width: 30%;
 }
@@ -214,7 +295,7 @@
     background-color: rgba(255, 0, 0, 0);
     width: 50%;
     height: 40%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 390%;
     border-radius: 50%;
     border: none;
@@ -229,16 +310,24 @@
 /*Translate site section arrange the Translate site*/
 
 .translateSiteSection{
+    // position: relative;
+    // position: fixed;
+    // z-index: 1;
+
+
+
+
     // background-color: rgba(82, 80, 80, 0.527);
-    height: 145px;
-    margin-left: 80%;
-    margin-top: 11%;
+
+    margin-left: 88.5%;
+    margin-top: 27.5%;
     grid-column: 3/4;
     grid-row: 3/4;
-    width: 25%;
+    width: 50px;
 }
 .translateSite{
-    width: 100%;
+    
+    // width: auto;
 }
 .translateSite button{    
     font-size: 13px;
@@ -248,12 +337,12 @@
 }
 .translateSite .translateEN{
     //background-color: rgb(58, 58, 58);
-    margin-left: 3%;
+    // margin-left: 3%;
 }
 .translateSiteSection img{
-    width: 20%;
-    //background-color: rgb(22, 22, 22);
-    margin-right: 8%;
+    width: 100%;
+    // background-color: rgb(22, 22, 22);
+    // margin-right: 8%;
 }
 
 
@@ -267,8 +356,14 @@
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
+
 }
 .founers{
+    position: relative;
+    // z-index: 0;//////////////////
+
+    // top: 20px;
+    margin-left: 10%;
     grid-column: 2/3;
     grid-row: 2/3;
     align-items: center;

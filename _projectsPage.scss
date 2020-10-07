@@ -1,4 +1,6 @@
 .divCuPeuri4{
+    width: auto;
+    // height: 1075px;
     display: flex;
     justify-content: center;
     display: grid;
@@ -7,6 +9,8 @@
     grid-template-rows: 1fr 1fr 1fr;
 }
 .peuri4{
+    position: relative;
+
     height: 100%;
     width: 100%;
     grid-column: 2/3;

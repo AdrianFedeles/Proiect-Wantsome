@@ -1,4 +1,4 @@
-.divCuPeuri1{
+.homeLogo1-2-Motto{
     display: flex;
     justify-content: center;
     display: grid;
@@ -6,7 +6,7 @@
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
 }
-.peuri1{
+.homeSectionWithLogo1Logo2Motto{
     grid-column: 2/3;
     grid-row: 2/3;
     display: grid;
@@ -14,22 +14,40 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.logo2{
+.logo2Motto{
+    background: linear-gradient(150deg
+    , #1900ff85
+    , #1100ff85
+    , #00b7ff81
+    , #00aeff83
+    ); 
+    border-radius: 20%;
+    margin-top: 30px;
+    margin-left: 40px;
     width: 65%;
     grid-column: 1/2;
     grid-row: 1/2;
 }
-.logo1{
+.logo1Site{
     width: 130%;
     grid-column: 2/3;
     grid-row: 1/2;
 }
 .mottoSiteHomePage{
+    text-shadow: 
+    0px 0px 0px #000000d5, 
+    2px 2px 0px #000000af, 
+    4px 4px 0px #00000093,
+    6px 6px 0px #00000083, 
+    8px 8px 0px #0000005b, 
+    10px 10px 0px #00000046, 
+    12px 12px 0px #00000023, 
+    14px 14px 0px #00000015;
     margin-left: 70%;
     width: 100%;
     font-size: 20px;
     grid-column: 1/2;
     grid-row: 2/3;
     font-weight: bold;
-    color: rgb(34, 143, 216);
+    color: rgba(32, 174, 240, 0.74);
 }

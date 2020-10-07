@@ -10,7 +10,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-gap: 15px;
+    grid-gap: 5px;
     background: linear-gradient(to bottom
     
     , #1fc3c3
@@ -22,8 +22,6 @@
     , #1a7c9c
     , #0133a8
     , #21539c
-    , #023535c4
-    , #000000
     , #01ddff
     , #00eaff
     , #024b2c
@@ -34,62 +32,88 @@
     , #688dfd
     );
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 .mainPage{
     grid-row: 1/2;
-    height: 1000px;
+    height: 1075px;
     width: 100%;
     background-image: url(background-img/1-background-MAIN-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    //position: absolute;//////////////////
 }
 .homePage{
     grid-row: 2/3;
-    height: 1000px;;
+    height: 1075px;;
     width: 100%;
     background-image: url(background-img/2-background-img-HOME-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    //position: absolute;//////////////////
+
 }
 .aboutPage{
     grid-row: 3/4;
-    height: 1000px;
+    height: 1075px;
     width: 100%;
     background-image: url(background-img/3-background-img-About-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    //position: absolute;//////////////////
+
 }
 .servicePage{
+    
     grid-row: 4/5;
-    height: 1000px;
+    height: 1075px;
     width: 100%;
     background-image: url(background-img/4-background-img-Services-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    
+    //position: absolute;//////////////////
+
 }
 .projectsPage{
     grid-row: 5/6;
-    height: 1000px;
+    height: 1075px;
     width: 100%;
     background-image: url(background-img/architectural-project1.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    //position: absolute;//////////////////
+
 }
 
 .registerPage{
     grid-row: 6/7;
-    height: 1000px;
+    height: 1075px;
     width: 100%;
     background-image: url(background-img/6-background-img-Register-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    //position: absolute;//////////////////
+
 }
 .contactPage{
     grid-row: 7/8;
-    height: 1000px;
-    width: 100%;
+    height: 1075px;
+    width: auto;
     background-image: url(background-img/7-background-img-Contact-Part-Pag.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    //position: static;//////////////////
+
+}
+footer {
+    position: relative;
+    width: auto;
+    height: 65px;
+    text-align:center;
+    padding: 1%;
+    font-size: 30px;
+    background: linear-gradient(to bottom
+    , #6bb1f6
+    , #688dfd
+    );
 }

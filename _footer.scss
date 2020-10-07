@@ -1,12 +1,33 @@
-// footer {
-//     text-align:center;
-//     color:rgba(175, 32, 32, 0.472);
-//     padding: 1%;
-//     font-size: 15px;
-//     background-color: rgba(226, 15, 15, 0.233);
-// }
+.footerSection{
+    background-image: url(background-img/footer2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85px;
+}
 
-// @media only screen and (max-width: 800px){
+.socialInsta{
+    font-size: 40px;
+    margin: 150px;
+    color: whitesmoke;
+
+}
+.socialFace{
+    font-size: 40px;
+    margin: 150px;
+    color: rgb(255, 255, 255);
+}
+.footerSection label{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.123);
+}
+.footerSection label i{
+    color: black;
+}
+
+
+// @media all (max-width: 800px){
 //     footer{
 //         color: rgb(197, 166, 157);
 //     }
