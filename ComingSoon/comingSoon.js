@@ -3,12 +3,12 @@ window.addEventListener("load", () => {
     const pads = document.querySelectorAll(".pads div");
     const visual = document.querySelector(".visual");
     const colors = [
-        "#60d394",
-        "#d36060",
-        "#c060d3",
-        "#d3d160",
-        "#606bd3",
-        "#60c2d3"
+        "#f77b7b",
+        "#e7ff7a",
+        "#7af78a",
+        "#7ef6ff",
+        "#8c80ff",
+        "#f081ff"
     ];
 
     pads.forEach((pad, index) => {

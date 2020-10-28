@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <span id="up"></span>
     <div class="container">
         <div class="arrangeBackgroundImg">
             <div class="mainPage">
@@ -27,29 +28,36 @@
                     </div>
                     <nav class="navigationButtonsSection">
                         <nav class="navigationButtons">
-                            <nav class="Home"><button type="button" onclick="">
-                                    <div class="HomeFafa"><i class="fa fa-home" aria-hidden="true"></div></i>
-                                </button>Acasa</nav>
-                            <nav class="About"><button type="button" onclick=""><i class="fa fa-info-circle"
-                                        aria-hidden="true"></i></button>Despre</nav>
-                            <nav class="Services"><button type="button" onclick=""><i class="fa fa-calendar"
-                                        aria-hidden="true"></i></button>Servicii</nav>
-                            <nav class="Projects"><button type="button" onclick=""><i class="fa fa-desktop"
-                                        aria-hidden="true"></i></button>Proiecte</nav>
-                            <nav class="Register"><button type="button" onclick=""><i class="fa fa-pencil-square-o"
-                                        aria-hidden="true"></i></button>Inregistrare</nav>
-                            <nav class="Contact"><button type="button" onclick=""><i class="fa fa-phone"
-                                        aria-hidden="true"></i></button>Contact</nav>
-                        </nav>
+                            <a href="#HomePagID">
+                                <nav class="Home"><button type="button" onclick="">
+                                        <div class="HomeFafa"><i class="fa fa-home" aria-hidden="true"></div></i>
+                                    </button>
+                            </a> Acasa</nav>
+                        <nav class="About"><button type="button" onclick=""><i class="fa fa-info-circle"
+                                    aria-hidden="true"></i></button>Despre</nav>
+                        <nav class="Services"><button type="button" onclick=""><i class="fa fa-calendar"
+                                    aria-hidden="true"></i></button>Servicii</nav>
+                        <nav class="Projects"><button type="button" onclick=""><i class="fa fa-desktop"
+                                    aria-hidden="true"></i></button>Proiecte</nav>
+                        <nav class="Register"><button type="button" onclick=""><i class="fa fa-pencil-square-o"
+                                    aria-hidden="true"></i></button>Inregistrare</nav>
+                        <nav class="Contact"><button type="button" onclick=""><i class="fa fa-phone"
+                                    aria-hidden="true"></i></button>Contact</nav>
                     </nav>
+                    </nav>
+                    <div class="container-player">
+                        <p>Player</p>
+                    </div>
                     <div class="iconScrollMouseArrowSection">
                         <div class="iconScrollMouse"><img src="icons/mouse-scroll.png" alt="Scroll the page">
                             <label>Scroll</label>
                         </div>
                         <div class="arrowScrollUp">
-                            <button type="button" onclick=""><label>Scroll Up</label><img
-                                    src="icons/arrow-scroll-Up.webp">
-                            </button>
+                            <a href="#up">
+                                <button type="button" onclick=""><label>Scroll Up</label><img
+                                        src="icons/arrow-scroll-Up.webp">
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div class="translateSiteSection">
@@ -62,7 +70,7 @@
                     </div>
                 </div>
                 <div class="foundersSection">
-                    <div class="founers">
+                    <div id="founers">
                         <div class="AndreiSoporeanArchitectPhotograph"><img class="AndreiSoporean"
                                 src="candidat-img/2-Candidat-Architect-Photograph-Andrei-Soporean.png"
                                 alt="Imagin with Founder Andrei">
@@ -118,16 +126,16 @@
                     </div>
                 </div>
             </div>
-
-            <div class="homePage">
-                <div class="homeLogo1-2-Motto">
-                    <div class="homeSectionWithLogo1Logo2Motto">
-                        <img class="logo2Motto" src="icons/designer-motto1.webp" alt="logo-img">
-                        <label class="mottoSiteHomePage">Acesta este MOTTO-ul nostru !</label>
-                        <img class="logo1Site" src="background-img/LogoHomePagePart.webp" alt="logo-img">
+            <div id="HomePagID">
+                <div class="homePage">
+                    <div class="homeLogo1-2-Motto">
+                        <div class="homeSectionWithLogo1Logo2Motto">
+                            <img class="logo2Motto" src="icons/designer-motto1.webp" alt="logo-img">
+                            <label class="mottoSiteHomePage">Acesta este MOTTO-ul nostru !</label>
+                            <img class="logo1Site" src="background-img/LogoHomePagePart.webp" alt="logo-img">
+                        </div>
                     </div>
                 </div>
-
             </div>
             <div class="aboutPage">
                 <div class="about-H2-P">
@@ -234,7 +242,7 @@
                 <div class="divCuPeuri4">
                     <div class="peuri4">
                         <!-- <button onclick="autoplay"><div class="unu4"><iframe width="560" height="315" src="https://www.youtube.com/embed/yF9GYM6tdHw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></button> -->
-                        <img class="unu4" src="background-img/1-background-MAIN-Part-Pag.jpg">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yF9GYM6tdHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                         <img class="doi4" src="background-img/architectural-project.webp">
                         <img class="trei4" src="background-img/6-background-img-Register-Part-Pag.jpg">
                         <img class="patru4" src="background-img/3-background-img-About-Part-Pag.jpg">
@@ -328,6 +336,11 @@ peste ele un Layer cu '5 background img Projects Part Pag' -->
 </body>
 <footer>
     <div class="footerSection">
+        <a href="./ComingSoon/comingSoon.html"  target="_blank">
+            <button class="ComingSoon" type="button" onclick="">
+                <p>Coming Soon</p>
+            </button>
+        </a>
         <p><a class="socialInsta" href="https://www.instagram.com/" target="_blank">
                 <i class="fa fa-instagram"></i></a>
             <label><i class="fa fa-copyright" aria-hidden="true"></i>Uite asa se crapa neuronii.<i

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="./player.css" />
+</head>
+
+<body>
+    <div class="player">
+        <ul id="playlist">
+            <li class="current-song"><a href="./songs/Damian-Jr-Gong-Marley-Autumn-Leaves.mp3">Damian Marley - Autumn
+                    Leaves</a></li>
+            <li><a href="./songs/Handpan-by-Yuki-Koshimoto.mp3">Yuki Koshimoto - Handpan</a></li>
+            <li><a href="./songs/Hang-Massive-Warmth-of-the-Suns-Rays.mp3">Hang Massive - Warmth of the Suns Rays.</a>
+            </li>
+            <li><a href="./songs/Nas-& -amian-Marley-Patience.mp3">Nas & Damian Marley - Patience</a></li>
+            <li><a href="./songs/SUBCARPAȚI-Dă-i-Foale-Motanu-și-Călin-Han.mp3">SUBCARPAȚI - Dă-i Foale</a></li>
+            <li><a href="./songs/Subcarpati-Înapoi-în-Viitor.mp3">Subcarpati - Înapoi în Viitor</a></li>
+        </ul>
+        <audio class="playerAudio" src="" controls id="audioPlayer">
+        </audio>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="./player.js"></script>
+    <script>
+        audioPlayer();
+    </script>
+</body>
+
+</html>

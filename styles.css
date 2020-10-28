@@ -28,6 +28,15 @@
   color: black;
 }
 
+.ComingSoon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 /*tell the division to be a grid, we put rows and columns to put the elements where we won't*/
 .mainPageTop {
   height: 100%;
@@ -219,6 +228,16 @@
   grid-row: 6/7;
 }
 
+.container-player {
+  background-color: rgba(216, 216, 25, 0.308);
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
 /*Icon scroll mouse arrow section arrange the Icon scroll mouse arrow overall*/
 .iconScrollMouseArrowSection {
   -ms-grid-column: 2;
@@ -331,7 +350,7 @@
       grid-template-rows: 1fr 1fr 1fr;
 }
 
-.founers {
+#founers {
   position: relative;
   margin-left: 10%;
   -ms-grid-column: 2;
@@ -357,7 +376,7 @@
       grid-template-areas: "andrei-area   robert-area   momoa-area";
 }
 
-.founers button {
+#founers button {
   background: -webkit-gradient(linear, left top, left bottom, from(#00e1ff75), to(#0004ff49));
   background: linear-gradient(top, #00e1ff75, #0004ff49);
   font-size: 20px;
