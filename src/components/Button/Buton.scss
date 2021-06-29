@@ -1,0 +1,56 @@
+$primaryCollor: #c06014;
+$secondaryCollor: #ffc288;
+$whiteCollor: #fff;
+$blackCollor: linear-gradient(90deg, #1c1b1b 0%, #1a1717 100%);
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: $whiteCollor;
+  cursor: pointer;
+
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: $whiteCollor;
+  border-radius: 4px;
+}
+
+.btn--auth {
+  background-color: $primaryCollor;
+  color: $whiteCollor;
+  border: 2px solid $primaryCollor;
+  &:hover {
+    border: 2px solid $primaryCollor;
+  }
+}
+
+.btn--outline {
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: $whiteCollor;
+  border-radius: 4px;
+  border: 2px solid $primaryCollor;
+}
+
+.btn--grad {
+  background: $blackCollor;
+  border: 2px solid $primaryCollor;
+
+  &:hover {
+    background-image: linear-gradient(
+      to right,
+      #8d6b56 0%,
+      #d67039 51%,
+      #44a3d3 100%
+    );
+    border: 2px solid #1a1717;
+  }
+}

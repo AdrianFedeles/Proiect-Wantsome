@@ -1,0 +1,219 @@
+{
+    "SoftwareCostum":{
+        "aplicatiiMobile":{
+            "cardheader":{
+                "titleHeder":"Aplicatii Mobile",
+                "subtitleHeder": "Oferim servicii complete de dezvoltare de aplicatii mobile pe orice tip de dispozitiv."
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaMobil"
+            },
+            "cardContent":{
+                "descriptionContent":""            
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Acoperim orice cerinta, de la conceptualizare si analiza de business si pana la proiectarea interfetelor si dezvoltarea experientei de interactiune cu utilizatorii, de la dezvoltarea efectiva a codului si pana la testare, mentenanta si suport tehnic."
+            },"button":{
+                "titleButton":" App Mobile",
+                "goTo":"AppMobil",
+                "fontAwesome":"fas fa-mobile-alt"
+            }
+        },
+        "aplicatiiWeb":{
+            "cardheader":{
+                "titleHeder":"Aplicatii Web",
+                "subtitleHeder": "Oferim servicii complete de dezvoltare de aplicatii Wewb pe orice tip de platforma."
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaWeb"
+            },
+                "cardContent":{
+                "descriptionContent":""            
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Oferim servicii complete de dezvoltare de aplicatii web folosind o varietate de limbaje de programare printre care .NET, HTML5, CSS3 sau JavaScript. Putem dezvolta rapid si avantajos orice tip de proiect, de la portaluri de business si website-uri responsive pana la solutii de content management."
+            },"button":{
+                "titleButton":" Aplicatii Web",
+                "goTo":"AppWeb",
+                "fontAwesome":"far fa-window-maximize"
+            }
+        }
+        
+    },
+    "ServiciiCloud":{
+        "ConsultantCloud":{
+            "cardheader":{
+                "titleHeder":"Consultanta Cloud",
+                "subtitleHeder": ""
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaMobil"
+            },
+            "cardContent":{
+                "descriptionContent":"Combinam peste 10 ani de expertiza IT cu competente in cele mai moderne tehnologii cloud. Serviciile de consultanta pe care le oferim presupun:"
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": ""
+            },"button":{
+                "titleButton":" Consultanta Cloud",
+                "goTo":"ConsulCloud",
+                "fontAwesome":"fas fa-cloud-upload-alt"
+            }
+
+        },
+        "ImplementareCloud":{
+            "cardheader":{
+                "titleHeder":"Cloud Implementation",
+                "subtitleHeder": ""
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaWeb"
+            },
+                "cardContent":{
+                "descriptionContent":"Cei peste 10 ani de implementari ne permit o abordare unica, in stransa legatura cu nevoile specifice ale fiecarui client. "
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": " Detinem o echipa de specialisti cu experienta practica in  dezvoltarea, implementarea si migrarea aplicatiilor pe platformele de top din cloud prin intermediul serviciilor Bento Cloud Implementation."
+            },
+            "button":{
+                "titleButton":" Implementare Cloud",
+                "goTo":"ImplementCloud",
+                "fontAwesome":"fas fa-cloud-upload-alt"
+            }
+            
+        },"MigrareCloud":{
+            "cardheader":{
+                "titleHeder":"Migrare",
+                
+                "subtitleHeder": ""
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaMobil"
+            },
+            "cardContent":{
+                "descriptionContent":"Migrarea efectiva in cloud se face dupa realizarea unui proiect pilot pe un set restrans de aplicatii."            
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Scopul proiectului pilot este de a limita riscurile, pentru a intelege impactul si pentru a dezvoltarea argumentatia de business si financiara privind migrarea in cloud. Bento va ofera doua strategii de migrare:"
+            },
+            "button":{
+                "titleButton":" Migrare Cloud",
+                "goTo":"MigraCloud",
+                "fontAwesome":"fas fa-cloud-upload-alt"
+            }
+        }
+
+    },"ServiciiIt":{
+        "ServiciiHelpDesk":{
+            "cardheader":{
+                "titleHeder":"Servicii Help Desk",
+                "subtitleHeder": ""
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaMobil"
+            },
+            "cardContent":{
+                "descriptionContent":"Mentineti infrastructura IT la parametri optimi si minimizati impactul incidentelor de retea prin pachetul de servicii Bento IT Service Desk."
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Intreruperea serviciilor de e-mail, Internet sau incidentele de orice natura la nivelul infrastructurii IT pot provoca daune financiare uriase, intreruperi de activitate si probleme de imagine in reputatia brandului."
+            },"button":{
+                "titleButton":" Servicii Help Desk",
+                "goTo":"ServiciiHelp",
+                "fontAwesome":"fas fa-cogs"
+            }
+
+        },
+        "AdministrareSistemeIt":{
+            "cardheader":{
+                "titleHeder":"Administrare Sisteme IT",
+                "subtitleHeder": ""
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaWeb"
+            },
+                "cardContent":{
+                "descriptionContent":"Administrati mai eficient infrastructura IT prin pachetul de servicii Bento System Administration" 
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Bento ofera o gama extinsa de servicii Level 3 de instalare, administrare si suport pentru servere, echipamente de retea si echipamente de stocare catre companii cu infrastructura IT complexa. "
+            },
+            "button":{
+                "titleButton":" Administrare Sisteme IT",
+                "goTo":"AdminSistemIt",
+                "fontAwesome":"fas fa-cogs"
+            }
+
+        },
+        "ManagementRetea":{
+            "cardheader":{
+                "titleHeder":"Management Retea",
+                "subtitleHeder": ""
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaMobil"
+            },
+            "cardContent":{
+                "descriptionContent":"Infrastructura de retea este compusa din toate resursele hardware si software care permit conectarea, comunicarea, operarea si managementul infrastructurii IT."
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Infrastructura de retea este cea care asigura comunicarea si schimbul de servicii intre utilizatori, procese, aplicatii si reteaua externa/ internet."
+            },
+            "button":{
+                "titleButton":" Management Retea",
+                "goTo":"ManageRetea",
+                "fontAwesome":"fas fa-cogs"
+            }
+
+        },"SolutiiVirtualizare":{
+            "cardheader":{
+                "titleHeder":"Solutii Virtualizare",
+                "subtitleHeder": "Optimizati resursele actuale IT si reduceti costurile operationale prin pachetul de servicii Bento Virtualization Solutions"
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaMobil"
+            },
+            "cardContent":{
+                "descriptionContent":""
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Bento ofera solutii complete de Virtualizare si Private Cloud, atat la nivelul sistemelor Desktop cat si la nivelul Serverelor. La nivel Destop, o solutie VDI (Virtual Desktop Infrastructure) permite crearea unei infrastructuri agile, capabila de scalare rapida cu noi capabilitati. Printre avantajele solutiei VDI se numara:"
+            },
+            "button":{
+                "titleButton":" Solutii Virtualizare",
+                "goTo":"SolVirtual",
+                "fontAwesome":"fas fa-cogs"
+            }
+
+        },"HostareCloud":{
+            "cardheader":{
+                "titleHeder":"Hostare Cloud",
+                "subtitleHeder": "Accesati imediat capacitatea de stocare si procesare necesara afacerii dvs prin pachetul de servicii Bento Cloud Hosting"
+            },
+            "cardMedia":{
+                "titleMEdia":"titleMEdiaMobil"
+            },
+            "cardContent":{
+                "descriptionContent":"Cloud Computing-ul ofera avantaje financiare semnificative companiilor care au nevoie de putere de procesare suplimentara pe perioade limitate de timp."            
+            },
+            "cardCollapse":{
+                "titleDetailsCollapse": "",
+                "moreDetailsCollapse": "Cloud Computing-ul presupune utilizarea memoriei, capacitatii de procesare si stocare a unor servere partajate si interconectate in Internet, fara ca utilizatorul sa cunoasca locul sau configuratia fizica a sistemelor care furnizeaza serviciul. Pentru ca utilizatorul plateste strict pe baza consumului efectuat, o solutie de Cloud Computing genereaza implicit o reducere a costurilor, dar si alte avantaje cum ar fi:"
+            },
+            "button":{
+                "titleButton":" Hostare Cloud",
+                "goTo":"HostCloud",
+                "fontAwesome":"fas fa-cogs"
+            }
+        }
+    }
+}

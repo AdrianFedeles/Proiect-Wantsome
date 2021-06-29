@@ -1,0 +1,51 @@
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.btn--auth {
+  background-color: #c06014;
+  color: #fff;
+  border: 2px solid #c06014;
+}
+
+.btn--auth:hover {
+  border: 2px solid #c06014;
+}
+
+.btn--outline {
+  padding: 6px 18px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+  border: 2px solid #c06014;
+}
+
+.btn--grad {
+  background: -webkit-gradient(linear, left top, right top, from(#1c1b1b), to(#1a1717));
+  background: linear-gradient(90deg, #1c1b1b 0%, #1a1717 100%);
+  border: 2px solid #c06014;
+}
+
+.btn--grad:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#8d6b56), color-stop(51%, #d67039), to(#44a3d3));
+  background-image: linear-gradient(to right, #8d6b56 0%, #d67039 51%, #44a3d3 100%);
+  border: 2px solid #1a1717;
+}
+/*# sourceMappingURL=Buton.css.map */

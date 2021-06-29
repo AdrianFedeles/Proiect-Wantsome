@@ -1,0 +1,64 @@
+.Title_h4_prtofolio {
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 32px;
+	letter-spacing: 5.4px;
+	word-spacing: 5.6px;
+	color: #ffffff;
+	font-weight: 400;
+	text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
+		-3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
+		0px 12px 12px rgba(44, 168, 255, 0);
+	text-shadow: 0px 11px 14px #1a4075;
+}
+.arrows-1_minimal-left,
+.arrows-1_minimal-right {
+	color: rgb(255, 255, 255);
+	font-size: xx-large;
+	font-weight: 600;
+	text-shadow: 0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff;
+	color: black;
+}
+
+.Title_Image_Carusel_Section {
+	width: auto;
+	height: auto;
+	color: rgb(0, 0, 0);
+	text-shadow: 0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #ffffff, 0px 0px 20px #ffffff, 0px 0px 20px #ffffff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff,
+		0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff, 0px 0px 20px #2ca8ff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.Title_image_carusel {
+	font-size: 2.3em;
+	line-height: 1.4em;
+	font-weight: 600;
+}
+.carousel-indicators {
+	background-color: rgba(0, 0, 0, 0.308);
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
