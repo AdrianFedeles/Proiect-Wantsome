@@ -1,0 +1,79 @@
+.Container_section_Gazduire {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Title_Gazduire_Paragraph_Section {
+	font-size: 35px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 32px;
+	letter-spacing: 5.4px;
+	word-spacing: 5.6px;
+	color: #000000;
+	font-weight: 400;
+	text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
+		-3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
+		0px 12px 12px rgba(44, 168, 255, 0);
+	text-shadow: 0px 11px 14px #1a4075;
+	/* margin-top: 30px; */
+}
+.Hero_Image_Container_Gazduire {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	/* max-width: 280px; */
+	max-width: 500px;
+}
+.Container_Buttons_Gazduire_Section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 35.2rem;
+	align-items: center;
+	-webkit-box-shadow: 0px 11px 19px 8px #003b64;
+	box-shadow: 0px 11px 19px -4px #003b64;
+	border-radius: 5px;
+	background: linear-gradient(
+		315deg,
+		rgba(16, 5, 77, 1) 0%,
+		rgba(69, 16, 138, 1) 51%,
+		rgba(61, 6, 95, 1) 100%
+	);
+	width: 90%;
+}
+
+.Gazduire_Section {
+	/* max-width: 561px; */
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* width: 70%; */
+	/* Acest with nu e de aici */
+}
+.Container_Buttons_Gazduire_Section button {
+	width: 15em;
+	height: 3em;
+	color: white;
+	font-size: larger;
+	background-color: #c211a1;
+	border-radius: 5px !important;
+	margin: 18px;
+}
+
+.Mentenenta_Site_Text_Subtitle_In_Button_Gazduire,
+.Gazduire_Text_Subtitle_In_Button_Gazduire {
+	max-width: 100%;
+	height: auto;
+}
+.Mentenenta_Site_Text_Sub_Subtitle_In_Button_Gazduire,
+.Gazduire_Text_Sub_Subtitle_In_Button_Gazduire {
+	width: 100%;
+	height: auto;
+	font-size: 136%;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	color: white;
+}
