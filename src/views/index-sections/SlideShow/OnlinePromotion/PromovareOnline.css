@@ -1,0 +1,88 @@
+.Container_section_Promovare_Online {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	/* width: 25vw; */
+}
+
+.Title_Promovare_Online_Paragraph_Section {
+	font-size: 35px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 32px;
+	letter-spacing: 5.4px;
+	word-spacing: 5.6px;
+	color: #000000;
+	font-weight: 400;
+	text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
+		-3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
+		0px 12px 12px rgba(44, 168, 255, 0);
+	text-shadow: 0px 11px 14px #1a4075;
+}
+.Hero_Image_Container_Promovare_Online {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-width: 550px;
+}
+.Container_Buttons_Promovare_Online {
+	display: flex;
+	flex-direction: row;
+	min-height: 31rem;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 90%;
+	-webkit-box-shadow: 0px 11px 19px 8px #003b64;
+	box-shadow: 0px 11px 19px -4px #003b64;
+	border-radius: 5px;
+	background: linear-gradient(
+		315deg,
+		rgba(16, 5, 77, 1) 0%,
+		rgba(69, 16, 138, 1) 51%,
+		rgba(61, 6, 95, 1) 100%
+	);
+}
+.Promovare_Online_Section {
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+}
+.Promovare_Online_Btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.Container_Buttons_Promovare_Online button {
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 15em;
+	height: 3em;
+	color: white;
+	font-size: larger;
+	background-color: #c211a1;
+	border-radius: 5px !important;
+	margin: 18px;
+}
+
+.E_mail_Marketing_Text_Subtitle_In_Button_Programare_Web,
+.Lending_Page_Text_Subtitle_In_Button_Programare_Web,
+.Servicii_SEO_Text_Subtitle_In_Button_Programare_Web,
+.Promovare_Text_Subtitle_In_Button_Programare_Web {
+	max-width: 100%;
+	height: auto;
+}
+.E_mail_Marketing_Sub_Subtitle_In_Button_Programare_Web,
+.Lending_Page_Subtitle_In_Button_Programare_Web,
+.Servicii_SEO_Subtitle_In_Button_Programare_Web,
+.Promovare_Subtitle_In_Button_Programare_Web {
+	width: 100%;
+	height: auto;
+	font-size: 136%;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	color: white;
+}

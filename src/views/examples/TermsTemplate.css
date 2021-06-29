@@ -1,0 +1,21 @@
+.header-content-headeing {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+}
+.h2TermsTemplate {
+	text-align: left;
+	font-family: 'Noto Sans JP', sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 3.6px;
+	text-indent: 70px;
+}
+.pTermsTemplate {
+	text-indent: 50px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 3.6px;
+}
