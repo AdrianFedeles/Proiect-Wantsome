@@ -1,0 +1,233 @@
+{   "language":"Language:",
+    "navigationBar": {
+        "buttons":{
+            "home":"Home",
+            "about":"About",
+            "services":"Services",
+            "contact":"Contact"
+        }
+    },
+    "presentationComponent":{
+        "title":"Pursue Systems",
+        "subtitle":"With Pursue softwares’s user adoption solutions, you can stop struggling with software training and realize real results.",
+        "socialButtons":{
+            "development":"Development",
+            "creation":"Creation",
+            "inovation":"Inovation",
+            "security":"Security"
+        }
+    },
+    "aboutComponent":{
+        "topBoxes":{
+            "flexible":{
+                "title":"Flexible",
+                "paragraph":" Build complete enterprise apps for web and mobile. Process apps, database apps, integration, etc."
+            },
+            "fast":{
+                "title":"Fast",
+                "paragraph":"Having a dynamic team, we can complete your projects, and deliver it back to you in no time!"
+            },
+            "innovation":{
+                "title":"Innovation",
+                "paragraph":"Get in touch with our team in order to reach the bestsolution for the presented project, adding an extra color."
+            }
+        },
+        "sideBySideComponents":{
+            "leftComponent":{
+                "title":"Working with us is a pleasure",
+                "paragraph1":"Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.",
+                "paragraph2":"The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. Just make sure you enable them first via JavaScript."
+            },
+            "rightComponent":{
+                "title":"Top Notch Services",
+                "paragraph":"The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens."
+            }
+        },
+        "companyValueComponent":{
+            "title":"Company values",
+            "subtitle":"We are what we do",
+            "paragraph":"Every member of our team brings their own unique, invaluable flavor to the mix. We’re made up of rock climbers and book devourers, musicians and filmmakers, pranksters and do-gooders—all under one customer-obsessed roof. And we wouldn’t have it any other way.",
+            "boxes":{
+                "box1":{
+                    "title":"Respect",
+                    "paragraph":"Each person’s unique experiences have made them who they are today. We believe that everyone brings value and deserves to be treated with respect."
+                },
+                "box2":{
+                    "title":"Connection",
+                    "paragraph":"Human beings are the core building blocks of any company. We value our team, just as much as we value our customers."
+                },
+                "box3":{
+                    "title":"Teamwork",
+                    "paragraph":"We know that we can accomplish more by working together. We strongly encourage teamwork and collaboration to meet goals and find solutions."
+                },
+                "box4":{
+                    "title":"Technology",
+                    "paragraph":"We’re pragmatic agents of change, not only in the systems and platforms we utilize, but also in the personal relationships we maintain with our customers."
+                }
+            }
+        }
+    },
+    "servicesComponent":{
+        "title1":"New Product Development Services",
+        "subtitle1":"We commonly help commercial innovators & tech startups with the following services:",
+        "servicesBoxes1":{
+            "box1":{
+                "title":"Commercialisation Advice",
+                "paragraph":"As the developers, investors and founders of numerous successful ventures we're well positioned to share practical insights."
+            },
+            "box2":{
+                "title":"Market Validation",
+                "paragraph":"Startups can be risky. We've got a range of simple, effective & low cost techniques to help refine your concept."
+            },
+            "box3":{
+                "title":"Prototyping",
+                "paragraph":"Visualise the key aspects of your project before you build. Great for planning, customer feedback and working with investors."
+            },
+            "box4":{
+                "title":"MVP Development",
+                "paragraph":"Minimum Viable Products are stripped back, first editions of your product. They're a great way to launch quickly."
+            },
+            "box5":{
+                "title":"Rapid Iteration",
+                "paragraph":"We embrace active feedback and are set up to evolve your platform. The goal is to quickly deliver a product that truly meets your customers' needs."
+            },
+            "box6":{
+                "title":"AI Readiness",
+                "paragraph":"AI & business data can create a true competitive advantage. Even for simple “MVP's” it's smart to begin collecting the data early."
+            }
+        },
+        "title2":"Key Services",
+        "subtitle2":"Reached the end of the line with paper & spreadsheets? Streamline your business with a talented software management solution.",
+        "servicesBoxes2":{
+            "box1":{
+                "title":"Workflow Management",
+                "paragraph":"Drive growth and lower costs with a robust, tailored solution built entirely to your requirements."
+            },
+            "box2":{
+                "title":"Data Visualisation & Analytics",
+                "paragraph":"Spot trends early & turn your raw data into actionable insights with our variety of visualisation solutions."
+            },
+            "box3":{
+                "title":"Mobile Apps",
+                "paragraph":"Your business applications delivered via native mobile applications on Apple & Android."
+            },
+            "box4":{
+                "title":"Free Code Review",
+                "paragraph":"Before we begin development, a senior member of our technical staff will perform a 39 point code review to get a proper understanding of your technical position."
+            },
+            "box5":{
+                "title":"Fast Start",
+                "paragraph":"Looking to move quickly? We've streamlined the process & can be deploying updates in just two weeks."
+            },
+            "box6":{
+                "title":"We Take Ownership",
+                "paragraph":"Once we take on a code base, we assume “emotional ownership” for it, meaning we push for quality without assigning blame for previous problems."
+            },
+            "box7":{
+                "title":"Increase Production",
+                "paragraph":"Detect manufacturing defects in real time. Assist knowledge workers with context sensitive recommendations, text analysis and document categorisation at scale."
+            },
+            "box8":{
+                "title":"Manage Resources & Operations",
+                "paragraph":"Use intelligent demand prediction to optimise staffing and physical asset allocation. Maximise inventory turns whilst reducing stock shortages with machine based sales projections."
+            }
+        }
+    },
+    "contactComponent":{
+            "title":"Please feel free to contact us using the form below.",
+            "formLAbels":{
+                "name":"Name",
+                "email":"Email",
+                "subject":"Subject",
+                "message":"Message",
+                "error":"Insert"
+            },
+            "asideContent":{
+                "component1":{
+                    "title":"What you need to do?",
+                "paragraph1":"Make sure that all the details you want to send us are written in as much detail as possible. Also do not hesitate to contact us for any questions regarding our products."
+                },
+                "component2":{
+                    "title":"What we will do?",
+                    "paragraph1":"We will make sure that we answer your questions as soon as possible.",
+                    "paragraph2":"Once the conditions are established and the project is in progress, we will make sure that you receive all the necessary details and updates regarding its evolution."
+                }
+            }
+    },
+    "footer":{
+        "terms":"Terms and Conditions",
+        "gdpr":"GDPR Policy",
+        "cookie":"Cookie Policy"
+    },
+    "terms":{
+        "subtitle1":"Terms and conditions of use.",
+        "paragraph1":"Thank you for choosing to access our website / services. Use of our site (including visiting it, registering, using the services offered by our company and / or its partners by using our site) implies full and unconditional acceptance of these terms and conditions.",
+        "subtitle2":"General description of our services:",
+        "paragraph2":"Our company processes by automated and manual means your personal data in order to provide services and goods in the field of activity of the company, execution of contracts concluded with the company, in order to promote the company's services (marketing, including direct marketing), advertising lotteries, making commercial communications for the services of Pursue Systems SRL, including those developed together with a partner Pursue Systems SRL, to grant bonuses to customers or benefits in promotional campaigns, to fulfill legal obligations of the company such as communication of information to the competent state bodies as well as for the realization of the legitimate interests of the company, as is the case of image processing through video recordings for the protection of persons and goods inside the company's headquarters.",
+        "paragraph3":"We offer web information services. You will find a detailed description of the services we offer in this website, detailing the options you have at your disposal.",
+        "paragraph4":"The personal data provided by you may be used for promotional purposes (marketing) and for the products or services of other partners of ours with respect for your rights.",
+        "paragraph5":"The personal data processed are intended for use by the company and may be communicated only to the following recipients: to you as a data subject or to your legal representatives, to the company's staff, to central and local authorities according to legal provisions, to authorized persons of the company in its capacity of operator.",
+        "paragraph6":"In order to achieve the mentioned processing purposes, the company will process personal data during the existence of your consent or during the execution of the concluded contract / provision of specific services, as well as subsequently in order to comply with applicable legal obligations, including archiving provisions.",
+        "paragraph7":"Under the conditions provided by the legislation in the field of personal data processing, you benefit from the following rights: the right to information; the right to access data; the right to rectification; the right to delete data (\"the right to be forgotten\"), insofar as the conditions provided by law are met; the right to restrict processing; the right to data portability; the right to opposition; the right not to be subject to an automatic individual decision; and the right to address the National Authority for the Supervision of Personal Data Processing or the competent courts, insofar as it deems necessary.",
+        "paragraph8":"If your personal data is processed on the basis of consent, you also have the right to withdraw the consent given for the processing of personal data without affecting the legality of the processing done until that time.",
+        "paragraph9":"You, as the data subject, are obliged to provide complete, up-to-date and correct data.",
+        "paragraph10":"The refusal to provide personal data may determine the impossibility for the company to provide specific services and / or for the fulfillment of the other processing purposes by Pursue Systems SRL.",
+        "paragraph11":"We also confirm that we do not store or request special data such as political orientation, religious orientation, etc.",
+        "paragraph12":"Thus, we assure you that we process personal data in compliance with the following principles:",
+        "unorderedList":{
+            "list1":"Data is secure.",
+            "list2":"Our clients always have control of this data, as we presented in the previous paragraphs.",
+            "list3":"The data is used to give you positive experiences regarding the requested orders and offers."
+        }
+    },
+    "gdpr":{
+        "subtitle1":"GDPR Privacy Policy",
+        "paragraph1":"One of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by your website and how we use it.",
+        "paragraph2":"If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.",
+        "subtitle2":"General Data Protection Regulation (GDPR)",
+        "paragraph3":"We are a Data Controller of your information.",
+        "paragraph4":"Our company legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:",
+        "unnorderedList1":{
+            "list1":"Our company needs to perform a contract with you.",
+            "list2":"Processing your personal information is in our company legitimate interests.",
+            "list3":"Our company needs to comply with the law."
+        },
+        "paragraph5":"Our company will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.",
+        "paragraph6":"If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.",
+        "paragraph7":"In certain circumstances, you have the following data protection rights:",
+        "unnorderedList2":{
+            "list1":"The right to access, update or to delete the information we have on you.",
+            "list2":"The right of rectification.",
+            "list3":"The right to object.",
+            "list4":"The right of restriction.",
+            "list5":"The right to data portability.",
+            "list6":"The right to withdraw consent."
+        },
+        "subtitle6":"Log Files",
+        "paragraph8":"Our website follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.",
+        "subtitle7":"Privacy Policies",
+        "paragraph9":"Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on our website, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.",
+        "paragraph10":"Note that our website has no access to or control over these cookies that are used by third-party advertisers."
+    },
+    "cookie":{
+                "subtitle1":"What Are Cookies",
+        "paragraph1":"As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality.",
+        "subtitle2":"How We Use Cookies",
+        "paragraph2":"We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.",
+        "subtitle3":"Disabling Cookies",
+        "paragraph3":"You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.",
+        "subtitle4":"The Cookies We Set",
+        "unnorderedList1":{
+            "list1":"Email newsletters related cookies",
+            "list2":"This site offers newsletter or email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users",
+            "list3":"Site preferences cookies",
+            "list4":"In order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences."
+        },
+        "subtitle5":"Third Party Cookies",
+        "paragraph4":"In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.",
+        "paragraph5":"This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.",
+        "paragraph6":"For more information on Google Analytics cookies, see the official Google Analytics page.",
+        "subtitle6":"More Information",
+        "paragraph7":"Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site."
+    }
+}

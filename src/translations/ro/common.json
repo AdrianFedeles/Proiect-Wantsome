@@ -1,0 +1,233 @@
+{   "language":"Limba:",
+    "navigationBar": {
+        "buttons":{
+            "home":"Acasa",
+            "about":"Despre",
+            "services":"Servicii",
+            "contact":"Contact"
+        }
+    },
+    "presentationComponent":{
+        "title":"Pursue Systems",
+        "subtitle":"Cu soluțiile de adoptare a utilizatorilor de software Pursue, puteți opri lupta cu instruirea software și puteți obține rezultate reale.",
+        "socialButtons":{
+            "development":"Development",
+            "creation":"Creație",
+            "inovation":"Inovare",
+            "security":"Securitate"
+        }
+    },
+    "aboutComponent":{
+        "topBoxes":{
+            "flexible":{
+                "title":"Flexibil",
+                "paragraph":"Creați aplicații complete pentru întreprinderi web și mobil. Aplicații de proces, aplicații de baze de date, integrare etc."
+            },
+            "fast":{
+                "title":"Rapid",
+                "paragraph":"Având o echipă dinamică, vă putem finaliza proiectele și vi le putem livra în cel mai scurt timp!"
+            },
+            "innovation":{
+                "title":"Inovativ",
+                "paragraph":"Contactați echipa noastră pentru a ajunge la cea mai bună soluție pentru proiectul prezentat, adăugând o culoare suplimentară."
+            }
+        },
+        "sideBySideComponents":{
+            "leftComponent":{
+                "title":"Să lucrezi cu noi este o plăcere",
+                "paragraph1":"Nu lăsați utilizările să ghicească atașând sfaturi de instrumente și practici la orice element. Asigurați-vă că le activați mai întâi prin JavaScript.",
+                "paragraph2":"Kit-ul vine cu trei pagini pre-construite pentru a vă ajuta să începeți mai repede. Puteți schimba textul și imaginile și sunteți gata de plecare. Asigurați-vă că le activați mai întâi prin JavaScript."
+            },
+            "rightComponent":{
+                "title":"Servicii de top",
+                "paragraph":"Oceanul Arctic îngheață în fiecare iarnă și o mare parte din gheața se dezgheță în fiecare vară, iar acest proces va continua orice se întâmplă."
+            }
+        },
+        "companyValueComponent":{
+            "title":"Valorile companiei",
+            "subtitle":"Noi suntem ceea ce facem",
+            "paragraph":"Fiecare membru al echipei noastre aduce propria sa aromă unică, de neprețuit. Suntem alcătuiți din alpiniști și devoratori de cărți, muzicieni și realizatori de film, păcălici și buni- la - toate sub un singur acoperiș destinat clienților. Și nu am dori sa fie altfel.",
+            "boxes":{
+                "box1":{
+                    "title":"Respect",
+                    "paragraph":"Experiențele unice ale fiecărei persoane i-au făcut să fie cine sunt astăzi. Credem că toată lumea aduce valoare și merită să fie tratată cu respect."
+                },
+                "box2":{
+                    "title":"Conexiune",
+                    "paragraph":"Ființele umane sunt elementele de bază ale oricărei companii. Apreciem echipa noastră, la fel de mult cât prețuim clienții noștri."
+                },
+                "box3":{
+                    "title":"Lucru in echipa",
+                    "paragraph":"Știm că putem realiza mai multe lucrând împreună. Încurajăm puternic munca în echipă și colaborarea pentru a atinge obiectivele și a găsi soluții."
+                },
+                "box4":{
+                    "title":"Tehnologie",
+                    "paragraph":"Suntem agenți pragmatici ai schimbării, nu numai în sistemele și platformele pe care le utilizăm, ci și în relațiile personale pe care le menținem cu clienții noștri."
+                }
+            }
+        }
+    },
+    "servicesComponent":{
+        "title1":"Servicii de dezvoltare de produse noi",
+        "subtitle1":"De obicei, ajutăm inovatorii comerciali și startup-urile tehnologice cu următoarele servicii:",
+        "servicesBoxes1":{
+            "box1":{
+                "title":"Sfaturi pentru comercializare",
+                "paragraph":"În calitate de dezvoltatori, investitori și fondatori ai numeroaselor întreprinderi de succes, suntem bine poziționați să împărtășim informații practice."
+            },
+            "box2":{
+                "title":"Validarea pieței",
+                "paragraph":"Startupurile pot fi riscante. Avem o gamă de tehnici simple, eficiente și cu costuri reduse pentru a vă ajuta să vă rafinați conceptul."
+            },
+            "box3":{
+                "title":"Prototipare",
+                "paragraph":"Vizualizam aspectele cheie ale proiectului dvs. înainte de a-l construi. Excelent pentru planificare, feedback-ul clienților și colaborarea cu investitorii."
+            },
+            "box4":{
+                "title":"Dezvoltare MVP",
+                "paragraph":"Produsele minime viabile sunt eliminate înapoi, primele ediții ale produsului dvs. Sunt o modalitate excelentă pentru o lansa rapida."
+            },
+            "box5":{
+                "title":"Iterare rapidă",
+                "paragraph":"Îmbrățișăm feedback activ și suntem pregătiți să vă dezvoltăm platforma. Scopul este să vă livrăm rapid un produs care să răspundă cu adevărat nevoilor clienților dvs."
+            },
+            "box6":{
+                "title":"Pregătirea AI",
+                "paragraph":"Datele AI și de afaceri pot crea un adevărat avantaj competitiv. Chiar și pentru „MVP-uri” simple este inteligent să începeți să colectați datele devreme."
+            }
+        },
+        "title2":"Servicii cheie",
+        "subtitle2":"Ați ajuns la capătul liniei cu hârtie și foi de calcul? Optimizați-vă afacerea cu o soluție talentată de gestionare a software-ului.",
+        "servicesBoxes2":{
+            "box1":{
+                "title":"Managementul fluxului de lucru",
+                "paragraph":"Creșteți cererea și reduceți costurile cu o soluție robustă, personalizată, construită în întregime cerințelor dumneavoastră."
+            },
+            "box2":{
+                "title":"Vizualizare date și analize",
+                "paragraph":"Găsiți tendințele mai devreme și transformați-vă datele brute în informații practice cu varietatea noastră de soluții de vizualizare."
+            },
+            "box3":{
+                "title":"Aplicații pentru mobil",
+                "paragraph":"Aplicațiile dvs. comerciale livrate prin intermediul aplicațiilor mobile native pe Apple și Android."
+            },
+            "box4":{
+                "title":"Revizuirea codului gratuit",
+                "paragraph":"Înainte de a începe dezvoltarea, un membru senior al personalului nostru tehnic va efectua o revizuire a codului de 39 de puncte pentru a înțelege corect poziția dvs. tehnică."
+            },
+            "box5":{
+                "title":"Pornire rapidă",
+                "paragraph":"Vrei să te miști repede? Am simplificat procesul și putem implementa actualizări în doar două săptămâni."
+            },
+            "box6":{
+                "title":"Ne asumăm proprietatea",
+                "paragraph":"Odată ce luăm o bază de cod, ne asumăm „proprietatea emoțională” pentru aceasta, ceea ce înseamnă că promovăm calitatea fără a atribui vina pentru problemele anterioare."
+            },
+            "box7":{
+                "title":"Creșteți producția",
+                "paragraph":"Detectăm defectele de fabricație în timp real. Asistăm lucrătorii cu cunoștințe cu recomandări sensibile la context, analize de text și clasificare a documentelor la scară largă."
+            },
+            "box8":{
+                "title":"Gestiunea resurselor și operațiunilor",
+                "paragraph":"Utilizați predicția inteligentă a cererii pentru a optimiza personalul și alocarea activelor fizice. Maximizați rândurile de inventar, reducând în același timp lipsa stocurilor cu proiecțiile de vânzare pe bază de mașini."
+            }
+        }
+    },
+    "contactComponent":{
+            "title":"Vă rugăm să nu ezitați să ne contactați folosind formularul de mai jos.",
+            "formLAbels":{
+                "name":"Nume",
+                "email":"Email",
+                "subject":"Subiect",
+                "message":"Mesaj",
+                "error":"Introduceti"
+            },
+            "asideContent":{
+                "component1":{
+                    "title":"Ce trebuie să faci?",
+                "paragraph1":"Asigurați-vă că toate detaliile pe care doriți să ni le trimiteți sunt scrise cât mai detaliat posibil. De asemenea, nu ezitați să ne contactați pentru orice întrebări legate de produsele noastre."
+                },
+                "component2":{
+                    "title":"Ce vom face?",
+                    "paragraph1":"Ne vom asigura că vă răspundem la întrebări cât mai curând posibil.",
+                    "paragraph2":"Odată ce condițiile sunt stabilite și proiectul este în desfășurare, ne vom asigura că veți primi toate detaliile și actualizările necesare cu privire la evoluția acestuia."
+                }
+            }
+    },
+    "footer":{
+        "terms":"Termeni și condiții",
+        "gdpr":"Politică GDPR",
+        "cookie":"Politică Cookie"
+    },
+    "terms":{
+        "subtitle1":"Termeni și condiții de utilizare.",
+        "paragraph1":"Vă mulțumim că ați ales să accesați site-ul / serviciile noastre. Utilizarea site-ului nostru (inclusiv vizitarea acestuia, înregistrarea, utilizarea serviciilor oferite de compania noastră și / sau partenerii săi prin utilizarea site-ului nostru) implică acceptarea deplină și necondiționată a acestor termeni și condiții.",
+        "subtitle2":"Descrierea generală a serviciilor noastre:",
+        "paragraph2":"Compania noastră prelucrează automat și manual înseamnă datele dvs. personale pentru a furniza servicii și bunuri în domeniul de activitate al companiei, executarea contractelor încheiate cu compania, pentru a promova serviciile companiei (marketing, inclusiv marketing direct), publicitate loterii, realizarea de comunicări comerciale pentru serviciile Pursue Systems SRL, inclusiv cele dezvoltate împreună cu un partener Pursue Systems SRL, pentru acordarea de bonusuri clienților sau beneficii în campaniile promoționale, pentru îndeplinirea obligațiilor legale ale companiei, precum comunicarea informațiilor către organelor competente ale statului, precum și pentru realizarea intereselor legitime ale companiei, cum este cazul procesării imaginilor prin înregistrări video pentru protecția persoanelor și a bunurilor din interiorul sediului companiei.",
+        "paragraph3":"Oferim servicii de informare web. Veți găsi o descriere detaliată a serviciilor pe care le oferim în acest site web, detaliind opțiunile pe care le aveți la dispoziție.",
+        "paragraph4":"Datele personale furnizate de dvs. pot fi utilizate în scopuri promoționale (marketing) și pentru produsele sau serviciile altor parteneri de-ai noștri, cu respectarea drepturilor dumneavoastră.",
+        "paragraph5":"Datele cu caracter personal prelucrate sunt destinate utilizării de către companie și pot fi comunicate numai următorilor destinatari: dvs. ca persoană vizată sau reprezentanților dvs. legali, personalului companiei, autorităților centrale și locale conform prevederilor legale, autorităților autorizate persoane ale companiei în calitatea sa de operator.",
+        "paragraph6":"Pentru a atinge scopurile de prelucrare menționate, compania va prelucra datele cu caracter personal în timpul existenței consimțământului dvs. sau în timpul executării contractului încheiat / prestării de servicii specifice, precum și ulterior pentru a respecta obligațiile legale aplicabile, inclusiv arhivarea prevederi.",
+        "paragraph7":"În condițiile prevăzute de legislația în domeniul prelucrării datelor cu caracter personal, beneficiați de următoarele drepturi: dreptul la informație; dreptul de acces la date; dreptul la rectificare; dreptul de ștergere a datelor (\"dreptul de a fi uitat \"), în măsura în care sunt îndeplinite condițiile prevăzute de lege; dreptul de a restricționa prelucrarea; dreptul la portabilitatea datelor; dreptul la opoziție; dreptul de a nu fi supus unei decizii individuale automate; și dreptul de a se adresa Autorității Naționale pentru Supravegherea Prelucrării Datelor cu Caracter Personal sau instanțelor competente, în măsura în care consideră necesar.",
+        "paragraph8":"În cazul în care datele dvs. cu caracter personal sunt prelucrate pe baza consimțământului, aveți, de asemenea, dreptul de a retrage consimțământul dat pentru prelucrarea datelor cu caracter personal, fără a afecta legalitatea prelucrării efectuate până la acel moment.",
+        "paragraph9":"Dumneavoastră, ca persoană vizată, sunteți obligat să furnizați date complete, actualizate și corecte.",
+        "paragraph10":"Refuzul de a furniza date cu caracter personal poate determina imposibilitatea companiei de a furniza servicii specifice și / sau pentru îndeplinirea celorlalte scopuri de prelucrare de către Pursue Systems SRL.",
+        "paragraph11":"De asemenea, confirmăm că nu stocăm și nu solicităm date speciale precum orientarea politică, orientarea religioasă etc.",
+        "paragraph12":"Astfel, vă asigurăm că prelucrăm datele cu caracter personal în conformitate cu următoarele principii:",
+        "unorderedList":{
+            "list1":"Datele sunt sigure.",
+            "list2":"Clienții noștri dețin întotdeauna controlul acestor date, așa cum am prezentat în paragrafele anterioare.",
+            "list3":"Datele sunt utilizate pentru a va oferi experiente pozitive in legatura cu comenzile si ofertele solicitat."
+        }
+    },
+    "gdpr":{
+        "subtitle1":"Politica de confidențialitate GDPR",
+        "paragraph1":"Una dintre prioritățile noastre principale este confidențialitatea vizitatorilor noștri. Acest document privind politica de confidențialitate conține tipuri de informații care sunt colectate și înregistrate de site-ul dvs. web și modul în care le folosim.",
+        "paragraph2":"Dacă aveți întrebări suplimentare sau aveți nevoie de mai multe informații despre politica noastră de confidențialitate, nu ezitați să ne contactați.",
+        "subtitle2":"Regulamentul general privind protecția datelor (GDPR)",
+        "paragraph3":"Suntem un operator de date al informațiilor dvs.",
+        "paragraph4":"Baza legală a companiei noastre pentru colectarea și utilizarea informațiilor personale descrise în această politică de confidențialitate depinde de informațiile personale pe care le colectăm și de contextul specific în care colectăm informațiile:",
+        "unnorderedList1":{
+            "list1":"Compania noastră trebuie să încheie un contract cu dvs.",
+            "list2":"Prelucrarea informațiilor dvs. personale este în interesul legitim al companiei noastre.",
+            "list3":"Compania noastră trebuie să respecte legea."
+        },
+        "paragraph5":"Compania noastră va păstra informațiile dvs. personale numai atât timp cât este necesar în scopurile stabilite în această politică de confidențialitate. Vom păstra și vom utiliza informațiile dvs. în măsura necesară pentru a ne respecta obligațiile legale, pentru a soluționa litigiile și pentru a ne aplica politicile.",
+        "paragraph6":"Dacă sunteți rezident al Spațiului Economic European (SEE), aveți anumite drepturi de protecție a datelor. Dacă doriți să fiți informați despre ce informații personale deținem despre dvs. și dacă doriți ca acestea să fie eliminate din sistemele noastre, vă rugăm să ne contactați.",
+        "paragraph7":"În anumite circumstanțe, aveți următoarele drepturi de protecție a datelor:",
+        "unnorderedList2":{
+            "list1":"Dreptul de a accesa, actualiza sau șterge informațiile pe care le avem despre dvs.",
+            "list2":"Dreptul de rectificare.",
+            "list3":"Dreptul de a obiecta.",
+            "list4":"Dreptul de restricție.",
+            "list5":"Dreptul la portabilitatea datelor.",
+            "list6":"Dreptul de a retrage consimțământul."
+        },
+        "subtitle6":"Fișiere jurnal",
+        "paragraph8":"Site-ul nostru web urmează o procedură standard de utilizare a fișierelor jurnal. Aceste fișiere înregistrează vizitatori atunci când accesează site-uri web. Toate companiile de găzduire fac acest lucru și o parte din analiza serviciilor de găzduire. Informațiile colectate de fișierele jurnal includ adrese de protocol de internet (IP), tip de browser, furnizor de servicii Internet (ISP), ștampilă de dată și oră, pagini de trimitere / ieșire și, eventual, numărul de clicuri. Acestea nu sunt legate de nicio informație care poate fi identificată personal. Scopul informațiilor este de a analiza tendințele, de a administra site-ul, de a urmări mișcarea utilizatorilor de pe site și de a culege informații demografice.",
+        "subtitle7":"Politici de confidențialitate",
+        "paragraph9":"Serverele de anunțuri terțe sau rețelele publicitare utilizează tehnologii precum cookie-uri, JavaScript sau Web Beacon-uri care sunt utilizate în reclamele și linkurile respective care apar pe site-ul nostru web, care sunt trimise direct în browserul utilizatorilor. Ei primesc automat adresa dvs. IP atunci când se întâmplă acest lucru. Aceste tehnologii sunt utilizate pentru a măsura eficiența campaniilor lor publicitare și / sau pentru a personaliza conținutul publicitar pe care îl vedeți pe site-urile web pe care le vizitați.",
+        "paragraph10":"Rețineți că site-ul nostru nu are acces sau control asupra acestor cookie-uri care sunt utilizate de agenții de publicitate terți."
+    },
+    "cookie":{
+            "subtitle1":"Ce sunt cookie-urile",
+    "paragraph1":"Așa cum este o practică obișnuită cu aproape toate site-urile web profesionale, acest site folosește cookie-uri, care sunt fișiere mici, care sunt descărcate pe computerul dvs., pentru a vă îmbunătăți experiența. Această pagină descrie ce informații colectează, cum le folosim și de ce trebuie uneori să stocăm aceste cookie-uri. Vom împărtăși, de asemenea, modul în care puteți preveni stocarea acestor cookie-uri, cu toate acestea acest lucru poate reduce sau „rupe” anumite elemente ale funcționalității site-urilor.",
+    "subtitle2":"Cum folosim cookie-urile",
+    "paragraph2":"Folosim cookie-uri din mai multe motive detaliate mai jos. Din păcate, în majoritatea cazurilor, nu există opțiuni standard din industrie pentru dezactivarea cookie-urilor fără a dezactiva complet funcționalitatea și caracteristicile pe care le adaugă pe acest site. Este recomandat să lăsați toate cookie-urile dacă nu sunteți sigur dacă aveți nevoie de ele sau nu în cazul în care acestea sunt utilizate pentru a furniza un serviciu pe care îl utilizați.",
+    "subtitle3":"Dezactivarea cookie-urilor",
+    "paragraph3":"Puteți preveni setarea cookie-urilor ajustând setările din browserul dvs. (consultați Ajutor pentru browser pentru a face acest lucru). Rețineți că dezactivarea cookie-urilor va afecta funcționalitatea acestui și a multor alte site-uri web pe care le vizitați. Dezactivarea cookie-urilor va duce, de obicei, la dezactivarea anumitor funcționalități și caracteristici ale acestui site. Prin urmare, este recomandat să nu dezactivați cookie-urile.",
+    "subtitle4":"Cookie-urile pe care le setăm",
+    "unnorderedList1":{
+        "list1":"Trimiteți prin e-mail cookie-uri legate de buletine informative.",
+        "list2":"Acest site oferă newsletter sau servicii de abonament prin e-mail și cookie-urile pot fi folosite pentru a vă aminti dacă sunteți deja înregistrat și pentru a afișa anumite notificări care ar putea fi valabile numai pentru utilizatorii abonați / dezabonați.",
+        "list3":"Cookie-uri de preferințe ale site-ului.",
+        "list4":"Pentru a vă oferi o experiență extraordinară pe acest site, oferim funcționalitatea de a seta preferințele dvs. pentru modul în care rulează acest site atunci când îl utilizați. Pentru a ne aminti preferințele dvs., trebuie să setăm cookie-uri astfel încât aceste informații să poată fi apelate ori de câte ori interacționați cu o pagină este afectată de preferințele dvs."
+    },
+    "subtitle5":"Cookie-uri de la terți",
+    "paragraph4":"În unele cazuri speciale, folosim și cookie-uri furnizate de terți de încredere. Următoarea secțiune detaliază ce cookie-uri terțe pe care le-ați putea întâlni prin intermediul acestui site.",
+    "paragraph5":"Acest site folosește Google Analytics, care este una dintre cele mai răspândite și de încredere soluții de analiză de pe web, pentru a ne ajuta să înțelegem modul în care utilizați site-ul și modalitățile prin care vă putem îmbunătăți experiența. Aceste cookie-uri pot urmări lucruri precum timpul petrecut pe site și paginile pe care le vizitați, astfel încât să putem continua să producem conținut atrăgător.",
+    "paragraph6":"Pentru mai multe informații despre cookie-urile Google Analytics, consultați pagina oficială Google Analytics.",
+    "subtitle6":"Mai multe informatii",
+    "paragraph7":"Sperăm că acest lucru a clarificat lucrurile pentru dvs. și așa cum sa menționat anterior dacă există ceva care nu sunteți sigur dacă aveți nevoie sau nu, este de obicei mai sigur să lăsați cookie-urile activate în cazul în care interacționează cu una dintre caracteristicile pe care le utilizați pe site-ul nostru."
+    }
+}

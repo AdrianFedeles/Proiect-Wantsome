@@ -1,0 +1,13 @@
+.banner{
+display: inline-block;
+vertical-align: middle;
+margin: 0 auto;
+width: 85%;
+padding-bottom: 30px;
+text-align: center;
+}
+.row{
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
