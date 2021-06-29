@@ -1,0 +1,248 @@
+.seviceSectionPart{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.serviceParContent{
+
+    height: 100%;
+    width: 190%;
+    margin-top: 10%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+
+/*now we are working on sections*/
+
+/*Design*/
+
+.designIconParagraphH3{
+    color: rgb(250, 250, 250);
+    // background: linear-gradient(150deg
+    // , #1900ff86
+    // , #1100ff2a
+    // , #00b7ff2a
+    // , #00aeff7a
+    // );
+    display: flex;
+    justify-content: center;
+    width: 105%;
+    height: 100%;
+    // background-color: rgb(140, 240, 145);
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.iconDesign{
+    margin-left: 10px;
+    font-size: 60px;
+}
+.paragraph-H3-Design{
+    width: auto;
+    height: auto;
+}
+.paragraph-H3-Design h3{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.paragraph-H3-Design p{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+
+/*Concept*/
+
+.conceptIconParagraphH3{
+    color: rgb(250, 250, 250);
+    // background: linear-gradient(150deg
+    // , #1900ff86
+    // , #1100ff2a
+    // , #00b7ff2a
+    // , #00aeff7a
+    // );
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    // background-color: rgb(158, 140, 240);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.iconConcept{
+    font-size: 60px;
+}
+.paragraph-H3-Concept{
+    width: auto;
+    height: auto;
+}
+.paragraph-H3-Concept h3{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.paragraph-H3-Concept p{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+
+/*Code*/
+
+.codeIconParagraphH3{
+    color: rgb(250, 250, 250);
+    // background: linear-gradient(150deg
+    // , #1900ff86
+    // , #1100ff2a
+    // , #00b7ff2a
+    // , #00aeff7a
+    // );
+    display: flex;
+    justify-content: center;
+    width: 105%;
+    height: 100%;
+    // background-color: rgb(208, 140, 240);
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.iconCode{
+    margin-left: 10px;
+    font-size: 60px;
+}
+.paragraph-H3-Code{
+    width: auto;
+    height: auto;
+}
+.paragraph-H3-Code h3{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.paragraph-H3-Code p{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+
+/*Development*/
+
+.developmentIconParagraphH3{
+    color: rgb(250, 250, 250);
+    // background: linear-gradient(150deg
+    // , #1900ff86
+    // , #1100ff2a
+    // , #00b7ff2a
+    // , #00aeff7a
+    // );
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    // background-color: rgb(240, 177, 140);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.iconDevelopment{
+    margin-left: 25px;
+    font-size: 60px;
+}
+.paragraph-H3-Development{
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+}
+.paragraph-H3-Development h3{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.paragraph-H3-Development p{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+
+
+/*Analytics*/
+
+.analyticsIconParagraphH3{
+    color: rgb(250, 250, 250);
+    // background: linear-gradient(150deg
+    // , #1900ff28
+    // , #1100ff2a
+    // , #00b7ff2a
+    // , #00aeff23
+    // );
+    display: flex;
+    justify-content: center;
+    width: 105%;
+    height: 100%;
+    // background-color: rgb(140, 225, 240);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.iconAnalytics{
+    margin-left: 10px;
+    font-size: 60px;
+}
+.paragraph-H3-Analytics{
+    width: auto;
+    height: auto;
+}
+.paragraph-H3-Analytics h3{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.paragraph-H3-Analytics p{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+
+
+/*Marketing*/
+
+.marketingIconParagraphH3{
+    color: rgb(250, 250, 250);
+    // background: linear-gradient(150deg
+    // , #1900ff86
+    // , #1100ff2a
+    // , #00b7ff2a
+    // , #00aeff7a
+    // );
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    // background-color: rgb(4, 0, 255);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.iconMarketing{
+    margin-left: 15px;
+    font-size: 60px;
+
+}
+.paragraph-H3-Marketing{
+    width: auto;
+    height: auto;
+}
+.paragraph-H3-Marketing h3{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.paragraph-H3-Marketing p{
+    margin-left: 25px;
+    font-weight: bold;
+}

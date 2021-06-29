@@ -1,0 +1,121 @@
+.registerPageSection{
+    width: auto;
+    // height: 1075px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.registerSubscribe{
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+/*selest and modify SUBSCRABE TEXT and the 2st*/
+
+.registerSubscribe-h1-p{
+    font-size: 25px;
+    color: white;
+}
+.registerSubscribe-h1-p h1{
+    text-align: center;
+}
+.registerSubscribe-h1-p p{
+    text-align: center;
+}
+
+
+/*select the entire form */
+
+.registerSubscribeForm{
+    margin-top: 5px;
+    margin-left: 15%;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+
+/*select the LABEL`S from the entire form*/
+
+.registerSubscribeForm label{
+    font-size: 20px;
+}
+
+
+/*/we take the fild NAME and from type I change it/*/
+
+.registerSubscribeFormName [type]{
+    background: linear-gradient(160deg
+    , #0004ff49
+    , #00e1ff75
+    );
+    color: whitesmoke;
+    border-radius: 10px;
+    border-bottom: solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 30px;
+}
+
+
+/*we take the fild PRENAME and from type I change it*/
+
+.registerSubscribeFormPrename [type]{
+    background: linear-gradient(top
+    , #0004ff49
+    , #00e1ff75
+    );
+    color: whitesmoke;
+    border-radius: 10px;
+    border-bottom: solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 30px;
+}
+
+
+/*we take the fild EMAIL and from type I change it*/
+
+.registerSubscribeFormEmail [type]{
+    background: linear-gradient(bottom
+    , #0004ff49
+    , #00e1ff75
+    );
+    color: whitesmoke;
+    border-radius: 10px;
+    border-bottom: solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 30px;
+}
+
+
+/*we take the button SUBMIT and from type I change it*/
+
+.registerSubscribeFormSubmit [type]{
+    width: 80%;
+    border-radius: 20px;
+    border: solid grey;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(200deg
+    , #0004ff49
+    , #00e1ff75
+    );
+    
+}

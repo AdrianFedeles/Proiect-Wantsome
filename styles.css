@@ -1,0 +1,1409 @@
+.footerSection {
+  background-image: url(background-img/footer2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 85px;
+}
+
+.socialInsta {
+  font-size: 40px;
+  margin: 150px;
+  color: whitesmoke;
+}
+
+.socialFace {
+  font-size: 40px;
+  margin: 150px;
+  color: white;
+}
+
+.footerSection label {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.123);
+}
+
+.footerSection label i {
+  color: black;
+}
+
+.ComingSoon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+/*tell the division to be a grid, we put rows and columns to put the elements where we won't*/
+.mainPageTop {
+  height: 100%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  position: fixed;
+  /*a little exercise with display flex to see that it works and works*/
+}
+
+/*logo section arrange the logo*/
+.logoSection {
+  width: 100%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.logo {
+  margin-top: 0;
+  margin-left: 5%;
+  width: 50%;
+}
+
+/*search bar section arrange the search bar*/
+.searchBarSection {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  margin-top: 25px;
+  /*we see this background color in many division`s to see exactly where and what happens with that division*/
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5px;
+  -ms-grid-columns: 1fr 5px 100px;
+      grid-template-columns: 1fr 5px 100px;
+}
+
+.searchBar {
+  background: linear-gradient(150deg, #1900ff49, #1100ff2a, #00b7ff2a, #00aeff75);
+  border: none;
+  border-radius: 15%;
+  background-color: rgba(138, 18, 18, 0.479);
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  height: 25px;
+}
+
+.buttonSearch {
+  background: linear-gradient(150deg, #00e1ff75, #0004ff49);
+  border-radius: 30%;
+  border: none;
+  background-color: rgba(138, 18, 18, 0.479);
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  height: 30px;
+}
+
+/*Log In / Sign Up  section arrange the Log In / Sign Up*/
+.logInSignUp {
+  padding-right: 0;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: 1fr 100px 1fr 100px;
+      grid-template-columns: 1fr 100px 1fr 100px;
+  width: 40%;
+  height: 30px;
+  margin-top: 25.5px;
+  margin-left: 50%;
+}
+
+.logIn {
+  background: -webkit-gradient(linear, right top, left top, from(#00e1ff75), to(#0004ff49));
+  background: linear-gradient(right, #00e1ff75, #0004ff49);
+  border-radius: 30%;
+  border: none;
+  background-color: rgba(138, 18, 18, 0.479);
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  width: 100%;
+}
+
+.signUp {
+  background: -webkit-gradient(linear, left top, right top, from(#00e1ff75), to(#0004ff49));
+  background: linear-gradient(left, #00e1ff75, #0004ff49);
+  border-radius: 30%;
+  border: none;
+  background-color: rgba(138, 18, 18, 0.479);
+  width: 100%;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+}
+
+/*Navigation buttons section arrange the Navigation buttons section*/
+.navigationButtonsSection {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.navigationButtons {
+  color: #0eff72;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navigationButtons button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00e1ff75), to(#0004ff49));
+  background: linear-gradient(top, #00e1ff75, #0004ff49);
+  font-size: 15px;
+  color: #0eff72;
+  border-radius: 50%;
+  border: none;
+  height: 35px;
+  width: 6%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.Home.button {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.About.button {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.Services.button {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
+.Projects.button {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+}
+
+.Register.button {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5/6;
+}
+
+.Contact.button {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  grid-row: 6/7;
+}
+
+.container-player {
+  background-color: rgba(216, 216, 25, 0.308);
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
+/*Icon scroll mouse arrow section arrange the Icon scroll mouse arrow overall*/
+.iconScrollMouseArrowSection {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 60%;
+  margin-top: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconScrollMouse {
+  margin-left: 30%;
+  height: 70%;
+}
+
+.iconScrollMouse label {
+  color: #228fd8;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 64%;
+}
+
+.iconScrollMouse img {
+  border-radius: 10%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00e1ff49), to(#0004ff67));
+  background: linear-gradient(top, #00e1ff49, #0004ff67);
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 70%;
+  height: 60%;
+}
+
+.arrowScrollUp {
+  width: 30%;
+}
+
+.arrowScrollUp img {
+  border: none;
+  height: 20%;
+  width: 55%;
+}
+
+.arrowScrollUp button {
+  color: #228fd8;
+  background-color: rgba(255, 0, 0, 0);
+  width: 50%;
+  height: 40%;
+  margin-top: 10%;
+  margin-left: 390%;
+  border-radius: 50%;
+  border: none;
+}
+
+.arrowScrollUp label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*Translate site section arrange the Translate site*/
+.translateSiteSection {
+  margin-left: 88.5%;
+  margin-top: 27.5%;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  width: 50px;
+}
+
+.translateSite button {
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.translateSiteSection img {
+  width: 100%;
+}
+
+/*Founders section arrange the Founders*/
+.foundersSection {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+#founers {
+  position: relative;
+  margin-left: 10%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 100px;
+  -ms-grid-columns: 350px 350px 350px;
+      grid-template-columns: 350px 350px 350px;
+      grid-template-areas: "andrei-area   robert-area   momoa-area";
+}
+
+#founers button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00e1ff75), to(#0004ff49));
+  background: linear-gradient(top, #00e1ff75, #0004ff49);
+  font-size: 20px;
+  border-radius: 50%;
+  height: 35px;
+  width: 10%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.AndreiSoporean {
+  background: linear-gradient(150deg, #1900ff49, #1100ff2a, #00b7ff2a, #00aeff75);
+  border-radius: 30%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: andrei-area;
+}
+
+.labelNameFounerAndrei {
+  color: rgba(0, 195, 255, 0.788);
+  padding-left: 4%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ocupationFounersAndrei {
+  color: rgba(0, 195, 255, 0.788);
+  padding-left: 4%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.socialmediaAndrei button {
+  margin-left: 13.5%;
+}
+
+.socialAndreiTwitter {
+  color: #008cff;
+}
+
+.socialAndreiInsta {
+  color: #f8f8f8;
+}
+
+.RobertDiaconeasa {
+  background: linear-gradient(150deg, #1900ff49, #1100ff2a, #00b7ff2a, #00aeff75);
+  border-radius: 30%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: robert-area;
+}
+
+.labelNameFounerRobert {
+  color: rgba(0, 195, 255, 0.788);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ocupationFounersRobert {
+  color: rgba(0, 195, 255, 0.788);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.socialmediaRobert button {
+  margin-left: 13.5%;
+}
+
+.socialRobertTwitter {
+  color: #008cff;
+}
+
+.socialRobertInsta {
+  color: #f8f8f8;
+}
+
+.JasonMomoa {
+  background: linear-gradient(150deg, #1900ff49, #1100ff2a, #00b7ff2a, #00aeff75);
+  border-radius: 30%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: momoa-area;
+}
+
+.labelNameFounerMomoa {
+  color: rgba(0, 195, 255, 0.788);
+  padding-left: 10%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ocupationFounersMomoa {
+  color: rgba(0, 195, 255, 0.788);
+  padding-left: 8%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.socialmediaMomoa button {
+  margin-left: 13.5%;
+}
+
+.socialMomoaTwitter {
+  color: #008cff;
+}
+
+.socialMomoaInsta {
+  color: #f8f8f8;
+}
+
+/*wee tell the page 1st step to have out a margin because we need the background img to start from corner left up*/
+* {
+  margin: 0;
+}
+
+/*put a img with position absolute bo be cover and no repeat a width and a height to stretch the image to its extremity */
+.arrangeBackgroundImg {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1fc3c3), color-stop(#1593bd), color-stop(#4088cf), color-stop(#5493db), color-stop(#519cff), color-stop(#4f88d1), color-stop(#1a7c9c), color-stop(#0133a8), color-stop(#21539c), color-stop(#01ddff), color-stop(#00eaff), color-stop(#024b2c), color-stop(#044d3a), color-stop(#86ccfc), color-stop(#c9e1f5), color-stop(#6bb1f6), to(#688dfd));
+  background: linear-gradient(to bottom, #1fc3c3, #1593bd, #4088cf, #5493db, #519cff, #4f88d1, #1a7c9c, #0133a8, #21539c, #01ddff, #00eaff, #024b2c, #044d3a, #86ccfc, #c9e1f5, #6bb1f6, #688dfd);
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.mainPage {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  height: 1075px;
+  width: 100%;
+  background-image: url(background-img/1-background-MAIN-Part-Pag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homePage {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  height: 1075px;
+  width: 100%;
+  background-image: url(background-img/2-background-img-HOME-Part-Pag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutPage {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  height: 1075px;
+  width: 100%;
+  background-image: url(background-img/3-background-img-About-Part-Pag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.servicePage {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  height: 1075px;
+  width: 100%;
+  background-image: url(background-img/4-background-img-Services-Part-Pag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projectsPage {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5/6;
+  height: 1075px;
+  width: 100%;
+  background-image: url(background-img/architectural-project1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.registerPage {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  grid-row: 6/7;
+  height: 1075px;
+  width: 100%;
+  background-image: url(background-img/6-background-img-Register-Part-Pag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactPage {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
+  height: 1075px;
+  width: auto;
+  background-image: url(background-img/7-background-img-Contact-Part-Pag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  position: relative;
+  width: auto;
+  height: 65px;
+  text-align: center;
+  padding: 1%;
+  font-size: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6bb1f6), to(#688dfd));
+  background: linear-gradient(to bottom, #6bb1f6, #688dfd);
+}
+
+.homeLogo1-2-Motto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.homeSectionWithLogo1Logo2Motto {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.logo2Motto {
+  background: linear-gradient(150deg, #1900ff85, #1100ff85, #00b7ff81, #00aeff83);
+  border-radius: 20%;
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 65%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.logo1Site {
+  width: 130%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.mottoSiteHomePage {
+  text-shadow: 0px 0px 0px #000000d5,  2px 2px 0px #000000af,  4px 4px 0px #00000093, 6px 6px 0px #00000083,  8px 8px 0px #0000005b,  10px 10px 0px #00000046,  12px 12px 0px #00000023,  14px 14px 0px #00000015;
+  margin-left: 70%;
+  width: 100%;
+  font-size: 20px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  font-weight: bold;
+  color: rgba(32, 174, 240, 0.74);
+}
+
+.about-H2-P {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.aboutSectionWithH2P {
+  height: 100%;
+  width: 100%;
+  margin-top: 20%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 60%;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.aboutPage-h2Section {
+  height: 100%;
+  width: 100%;
+  margin-right: 50%;
+  color: #70afeb;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+}
+
+.aboutPage-pSection {
+  height: 100%;
+  width: 100%;
+  color: #70afeb;
+  background-color: rgba(139, 69, 19, 0);
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.seviceSectionPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.serviceParContent {
+  height: 100%;
+  width: 190%;
+  margin-top: 10%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+/*now we are working on sections*/
+/*Design*/
+.designIconParagraphH3 {
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 105%;
+  height: 100%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.iconDesign {
+  margin-left: 10px;
+  font-size: 60px;
+}
+
+.paragraph-H3-Design {
+  width: auto;
+  height: auto;
+}
+
+.paragraph-H3-Design h3 {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.paragraph-H3-Design p {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/*Concept*/
+.conceptIconParagraphH3 {
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.iconConcept {
+  font-size: 60px;
+}
+
+.paragraph-H3-Concept {
+  width: auto;
+  height: auto;
+}
+
+.paragraph-H3-Concept h3 {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.paragraph-H3-Concept p {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/*Code*/
+.codeIconParagraphH3 {
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 105%;
+  height: 100%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.iconCode {
+  margin-left: 10px;
+  font-size: 60px;
+}
+
+.paragraph-H3-Code {
+  width: auto;
+  height: auto;
+}
+
+.paragraph-H3-Code h3 {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.paragraph-H3-Code p {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/*Development*/
+.developmentIconParagraphH3 {
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.iconDevelopment {
+  margin-left: 25px;
+  font-size: 60px;
+}
+
+.paragraph-H3-Development {
+  margin-left: 10px;
+  width: auto;
+  height: auto;
+}
+
+.paragraph-H3-Development h3 {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.paragraph-H3-Development p {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/*Analytics*/
+.analyticsIconParagraphH3 {
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 105%;
+  height: 100%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
+.iconAnalytics {
+  margin-left: 10px;
+  font-size: 60px;
+}
+
+.paragraph-H3-Analytics {
+  width: auto;
+  height: auto;
+}
+
+.paragraph-H3-Analytics h3 {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.paragraph-H3-Analytics p {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/*Marketing*/
+.marketingIconParagraphH3 {
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
+.iconMarketing {
+  margin-left: 15px;
+  font-size: 60px;
+}
+
+.paragraph-H3-Marketing {
+  width: auto;
+  height: auto;
+}
+
+.paragraph-H3-Marketing h3 {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.paragraph-H3-Marketing p {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.divCuPeuri4 {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 7px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.peuri4 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 40px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.unu4 {
+  background-color: #fc0000;
+  height: 150px;
+  width: 100%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.doi4 {
+  height: 150px;
+  width: 100%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.trei4 {
+  background-color: #15fc00;
+  height: 150px;
+  width: 100%;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.patru4 {
+  background-color: #00fce7;
+  height: 150px;
+  width: 100%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.cinci4 {
+  background-color: #1100fc;
+  height: 150px;
+  width: 100%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.sase4 {
+  height: 150px;
+  width: 100%;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+}
+
+.registerPageSection {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 7px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.registerSubscribe {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+/*selest and modify SUBSCRABE TEXT and the 2st*/
+.registerSubscribe-h1-p {
+  font-size: 25px;
+  color: white;
+}
+
+.registerSubscribe-h1-p h1 {
+  text-align: center;
+}
+
+.registerSubscribe-h1-p p {
+  text-align: center;
+}
+
+/*select the entire form */
+.registerSubscribeForm {
+  margin-top: 5px;
+  margin-left: 15%;
+  color: white;
+  width: auto;
+  height: auto;
+}
+
+/*select the LABEL`S from the entire form*/
+.registerSubscribeForm label {
+  font-size: 20px;
+}
+
+/*/we take the fild NAME and from type I change it/*/
+.registerSubscribeFormName [type] {
+  background: linear-gradient(160deg, #0004ff49, #00e1ff75);
+  color: whitesmoke;
+  border-radius: 10px;
+  border-bottom: solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 80%;
+  height: 30px;
+}
+
+/*we take the fild PRENAME and from type I change it*/
+.registerSubscribeFormPrename [type] {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0004ff49), to(#00e1ff75));
+  background: linear-gradient(top, #0004ff49, #00e1ff75);
+  color: whitesmoke;
+  border-radius: 10px;
+  border-bottom: solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 80%;
+  height: 30px;
+}
+
+/*we take the fild EMAIL and from type I change it*/
+.registerSubscribeFormEmail [type] {
+  background: -webkit-gradient(linear, left bottom, left top, from(#0004ff49), to(#00e1ff75));
+  background: linear-gradient(bottom, #0004ff49, #00e1ff75);
+  color: whitesmoke;
+  border-radius: 10px;
+  border-bottom: solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 80%;
+  height: 30px;
+}
+
+/*we take the button SUBMIT and from type I change it*/
+.registerSubscribeFormSubmit [type] {
+  width: 80%;
+  border-radius: 20px;
+  border: solid grey;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(200deg, #0004ff49, #00e1ff75);
+}
+
+.contactPageSection {
+  background-color: rgba(240, 230, 140, 0);
+  width: auto;
+  height: 1075px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 3px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contactCostumerService {
+  position: relative;
+  background-color: rgba(255, 0, 0, 0);
+  margin-top: 50px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 3%;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+/*modific  .contactPageContactCostumerService care cuprinde :
+
+<p>Costomer Service</p>
+<h1>Contact</h1>
+<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Ipsum Lorem Ipsum</p> */
+.contactPageContactCostumerService {
+  background-color: rgba(255, 230, 0, 0);
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  text-align: justify;
+}
+
+.contactPageContactCostumerService p {
+  color: #cccaca;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactPageContactCostumerService h1 {
+  color: whitesmoke;
+  margin-left: 40px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactPage-Questions-Details-Paragraph {
+  margin-left: 20px;
+}
+
+/*acum modificam contactPageForm care cuprinde:
+nimic
+*/
+.contactPageForm {
+  background-color: rgba(72, 255, 0, 0);
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+/*acum modificam contactPageContactSpace-AddressSpace care cuprinde:
+nimic
+*/
+.contactPageContactSpace-MessageSpace {
+  background-color: rgba(0, 255, 200, 0);
+  width: auto;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 3%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+/*modific contactPageContactCallEmail care cuprinde:
+<h5>Contact</h5>
+<label>Call:</label>
+<input type="tel" name="telefon">
+<label>E-mail:</label>
+<input type="email" name="email">
+
+*/
+.contactPageContactCallEmail {
+  background-color: rgba(38, 0, 255, 0);
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  width: auto;
+  height: 100%;
+}
+
+.contactPageContactCallEmail h5 {
+  margin-left: 20%;
+  color: #cccaca;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.contactPageContactCallEmail label {
+  color: rgba(245, 245, 245, 0.664);
+  font-family: Lucida Sans Unicode;
+  font-family: "Helvetica Neue", "Arial";
+}
+
+.contactPageContactCallEmail [type] {
+  margin-bottom: 25px;
+  background: linear-gradient(150deg, #00e1ff75, #0004ff49);
+  border-radius: 10px;
+  border: none;
+}
+
+.contactPageContactCallEmail [type='tel'] {
+  width: 59%;
+  height: 20px;
+  color: white;
+}
+
+.contactPageContactCallEmail [type='email'] {
+  width: auto;
+  height: 20px;
+  color: white;
+}
+
+/*modific contactPageAddressTextarea adica :
+<label>Address</label>
+<textarea name="mesaj" rows="6" cols="31">
+Va rugam nu dormiti la cursuri</textarea>
+*/
+.contactPageMessageTextarea {
+  background-color: rgba(247, 0, 255, 0);
+  width: auto;
+  height: auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.contactPageMessageTextarea h5 {
+  margin-left: 35%;
+  color: #cccaca;
+  font-size: 25px;
+  font-family: "Arial";
+}
+
+.contactPageMessageTextarea [name='mesaj'] {
+  color: white;
+  background: linear-gradient(200deg, #00e1ff75, #0004ff49);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.contactPageSubmitButton {
+  background-color: rgba(197, 109, 109, 0);
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  height: 30%;
+}
+
+.contactPageSubmitButton [type="submit"] {
+  width: auto;
+  height: 65%;
+  border: 2px solid #2f69e6;
+  border-radius: 50px 20px;
+  background: linear-gradient(150deg, #00e1ff75, #0004ff49);
+}
+
+.contactPageSubmitButton [value="Trimite Mesajul"] {
+  font-size: 20PX;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgba(245, 245, 245, 0.692);
+}
+/*# sourceMappingURL=styles.css.map */

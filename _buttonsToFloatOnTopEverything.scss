@@ -1,0 +1,242 @@
+// // .buttonsToFloatOnTopEverything{
+// //     display: grid;
+// //     grid-template-columns: 300px 1fr 300px;
+// //     grid-template-rows: repeat(3,auto);
+// //     grid-area: 
+// //     "logo-area          area          singInSignUp-area"
+// //     "navigation-area    imagin-area        area"
+// //     "area               mouse-area     translate-area";
+// // }
+// //Generals
+// li{
+//     list-style-type: none;
+//     //background-color: rgb(122, 121, 121);
+//     width: 300px;
+    
+// }
+// //Align logo item
+// .logo {
+//     //grid-area: logo-area;///////
+//     height: 350px;
+//     width: 480px;
+//     padding: 10px;
+//     // position: absolute;
+//     // left: 0px;
+//     // top: 0px;
+//     // z-index: 1;
+//     //background-color: rgb(122, 121, 121);
+// }
+// //Align item buttons Log In - Sing Up and I stylized them.
+// .logInSingUp{
+//     // list-style-type: none;
+//     //grid-area: singInSignUp-area;//////
+//     display: flex;
+//     border: none;
+//     margin: 20px;
+//     //padding: 50px;
+//     width: 270px;
+//     //background-color: rgb(122, 121, 121);
+// }
+// button.logIn{
+//     margin-right: 20px;
+//     //background-color: rgb(122, 121, 121);
+// }
+// .logIn{
+//     width: 120px;
+//     height: 60px;
+//     color: rgb(255, 255, 255);
+//     background-color: rgba(255, 0, 0, 0);
+//     border-radius: 40%;
+//     font-family:Arial Black;
+// }
+// .logIn:hover{
+//     background-color: #ba000073;
+//     color: white;
+//     cursor: pointer;
+//     transition-duration: 0.4s;
+//     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+//     font-family:Georgia;
+//     font-weight: bold;
+// }
+// .singUp{
+//     width: 120px;
+//     height: 60px;
+//     color: rgb(0, 0, 0);
+//     border-radius: 40%;
+//     font-family:Arial Black;
+// }
+// .singUp:hover{
+//     background-color: rgba(186, 0, 0, 0.451);
+//     color: rgb(255, 255, 255);
+//     cursor: pointer;
+//     transition-duration: 0.4s;
+//     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+//     font-family:Georgia;
+//     font-weight: bold;
+// }
+// //I stylize the navigation buttons
+// .navigationButtons{
+//     //grid-area: navigation-area;//////
+//     color: rgb(255, 255, 255);
+//     //background-color: rgb(122, 121, 121);
+//     width: 200px;
+//     height: 250px;
+//     padding: 10px;
+//     align-items: center;
+// }
+// .navigationButtons button{
+//     background-color: rgba(138, 133, 133, 0.301);
+//     color: rgb(255, 255, 255);
+//     border-radius: 50%;
+//     height: 30px;
+//     cursor: pointer;
+//     margin-right: 10px;
+//     margin-top: 10px;
+    
+// }
+
+// .navigationButtons button:hover{
+//     color: rgb(185, 180, 180);
+//     background-color:  rgba(186, 0, 0, 0.451);
+//     transition-duration: 0.4s;
+//     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+// }
+// // I stylize the translate icons and text
+// .translateSite{
+//     //grid-area: translate-area;//////
+//     //background-color: rgb(38, 16, 139);
+//     width: 500px;
+//     height: 121px;
+//     float: right;
+//     align-items: center;
+// }
+// .translateSite img{
+//     height: 40px;
+//     width: 60px;
+//     //background-color: rgb(122, 121, 121);
+    
+// }
+
+// .translateSite img:hover{
+//     background-color: rgba(0, 0, 0, 0.246);
+//     height: 70px;
+//     width: 90px;
+//     transition-duration: 0.4s;
+//     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+// }
+
+// .translateSite li{
+//     //background-color: rgb(179, 0, 0);
+//     width: 400px;
+// }
+// //I stylize the socialMedia icons
+// #socialMedia{
+//     //grid-area: translate-area;////////
+//     //background-color: rgb(122, 121, 121);
+//     width: 50px;
+//     float: right;
+//     height: 60px;
+//     align-items: center;
+// }
+// #socialMedia li{
+//     //background-color: rgb(185, 180, 180);
+//     width: 20px;
+
+// }
+// .social{
+//     color:blue;
+// }
+
+// //I stylize the socialMedia icons
+// .iconScrollMouse{
+//     //grid-area: mouse-area;//////////
+//     //background-color: rgb(122, 121, 121);
+//     width: 30px;
+//     height: 70px;
+//     //align-self: center;
+//     float:right;
+    
+// }
+// .iconScrollMouse img{
+//     //background-color: blue;
+//     width: 30px;
+//     height: 60px;
+//     //align-self: center;
+// }
+// .iconScrollMouse img:hover{
+//     background-color: rgba(168, 22, 22, 0.294);
+//     transition-duration: 0.4s;
+//     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+// }
+// .iconScrollMouse label{
+//     //background-color: pink;
+//     color: rgb(0, 0, 0);
+//     font-size: 10px;
+//     font-weight: bold;
+//     align-self: center;
+//     margin: 3px;
+//     //font-variant: small-caps;
+// }
+// //I stylize the arrowScrollUp icons
+// .arrowScrollUp{
+//     //grid-area: translate-area;/////////
+//     //background-color: rgb(138, 133, 133);
+//     height: 100px;
+//     align-self: center;
+//     width: 50px;
+// }
+// .arrowScrollUp img{
+//     //background-color: saddlebrown;
+//     width: 20px;
+//     height: 60px;
+//     align-items: center;
+// }
+// .arrowScrollUp button{
+//     //background-color: seagreen;
+//     height: 100px;
+//     width: 50px;
+//     align-self: center;
+//     background-color: rgba(65, 31, 25, 0);
+//     border-radius: 35%;
+    
+// }
+// .arrowScrollUp button:hover{
+//     background-color: rgba(168, 22, 22, 0.294);
+//     transition-duration: 0.5s;
+//     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+// }
+// .arrowScrollUp label{
+//     //background-color: tomato;
+//     color: rgb(255, 0, 0);
+//     font-size: 10px;
+//     font-weight: bold;
+//     align-self: center;
+//     margin: 3px;
+// }
+
+
+
+
+// //O DAM CU GRID SA VEDEM CE IESE
+
+
+
+// // .buttonsToFloatOnTopEverything{
+// //     display: grid;
+// //     grid-gap: 15px;
+// //     grid-template-columns: 400px auto 400px;
+// //     grid-template-rows: 400px auto 400px;
+// //     height: 1152px;
+// // }
+// // .logo{
+// //     grid-column-start: 1;
+// //     grid-column-end: 2;
+// //     grid-row-start: 1;
+// //     grid-row-end: 2;
+// // }
+// // .navigationButtons{
+// //     grid-column-start: 1;
+// //     grid-column-end: 2;
+// //     grid-row-start: 2;
+// //     grid-row-end: 3;
+// // }

@@ -1,0 +1,41 @@
+.about-H2-P{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.aboutSectionWithH2P{
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-gap: 60%;
+    grid-template-rows: 1fr 1fr;
+}
+.aboutPage-h2Section{
+    height: 100%;
+    width: 100%;
+    margin-right: 50%;
+    color: rgb(112, 175, 235);
+    // background-color: rgba(57, 139, 19, 0.376);
+    grid-row: 1/2;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+}
+.aboutPage-pSection{
+    height: 100%;
+    width: 100%;
+    color: rgb(112, 175, 235);
+    background-color: rgba(139, 69, 19, 0);
+    font-weight: bold;
+    font-size: 16px;
+    // font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    grid-row: 2/3;
+}
