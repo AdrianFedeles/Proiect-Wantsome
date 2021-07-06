@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/img/logo2.svg';
+import '../Navbars/IndexNavbar.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+//Typewriter
+import Typewriter from 'typewriter-effect';
 // reactstrap components
 import {
     Collapse,
@@ -129,7 +133,17 @@ function IndexNavbar() {
                                         }}
                                     >
                                         <p data-aos='zoom-in'>
-                                            Software Custom
+                                            <Typewriter
+                                                className='Typewriter__cursor Liniutza'
+                                                onInit={typewriter => {
+                                                    typewriter
+                                                        .typeString(
+                                                            'Software Custom'
+                                                        )
+                                                        .pauseFor(2000)
+                                                        .start();
+                                                }}
+                                            />
                                         </p>
                                     </div>
                                 </NavLink>
@@ -161,7 +175,19 @@ function IndexNavbar() {
                                             alignItems: 'center',
                                         }}
                                     >
-                                        <p data-aos='zoom-in'>Servicii Cloud</p>
+                                        <p data-aos='zoom-in'>
+                                            <Typewriter
+                                                style={{}}
+                                                onInit={typewriter => {
+                                                    typewriter
+                                                        .typeString(
+                                                            'Servicii Cloud'
+                                                        )
+                                                        .pauseFor(2000)
+                                                        .start();
+                                                }}
+                                            />
+                                        </p>
                                     </div>
                                 </NavLink>
                                 <UncontrolledTooltip
@@ -194,7 +220,19 @@ function IndexNavbar() {
                                             alignItems: 'center',
                                         }}
                                     >
-                                        <p data-aos='zoom-in'>Servicii IT</p>
+                                        <p data-aos='zoom-in'>
+                                            <Typewriter
+                                                style={{}}
+                                                onInit={typewriter => {
+                                                    typewriter
+                                                        .typeString(
+                                                            'Servicii IT'
+                                                        )
+                                                        .pauseFor(2000)
+                                                        .start();
+                                                }}
+                                            />
+                                        </p>
                                     </div>
                                 </NavLink>
                                 <UncontrolledTooltip
@@ -211,38 +249,6 @@ function IndexNavbar() {
                                     Solutii Virtualizare
                                     <br />
                                     Hostare Cloud
-                                </UncontrolledTooltip>
-                            </NavItem>
-
-                            <NavItem>
-                                <NavLink
-                                    id='PromovareOnlineButton'
-                                    href='#pablo'
-                                    onClick={e => {
-                                        e.preventDefault();
-                                        document
-                                            .getElementById(
-                                                'Promovare_Online_BTN_NAv'
-                                            )
-                                            .scrollIntoView();
-                                    }}
-                                >
-                                    <div
-                                        style={{
-                                            display: 'flex',
-                                            flexDirection: 'column',
-                                            alignItems: 'center',
-                                        }}
-                                    >
-                                        <p data-aos='zoom-in'>Contanct </p>
-                                    </div>
-                                </NavLink>
-                                <UncontrolledTooltip
-                                    delay={0}
-                                    placement='bottom'
-                                    target='PromovareOnlineButton'
-                                >
-                                    Contacteaza-ne
                                 </UncontrolledTooltip>
                             </NavItem>
                             <NavItem>

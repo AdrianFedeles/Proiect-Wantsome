@@ -1,264 +1,219 @@
 {
-    "AppMobil":{
+    "AppMobil": {
         "title": "Aplicatii Mobile",
-        "mainTitle":" ",
-            "details": [
-                {
-                    "icon": "",
-                    "secondTitle":
-                        "Model flexibil de lucru",
-                    "paragraph":
-                        "Poti solicita resurse specializate, care sa lucreze alaturi de tine si in coordonarea ta, ori putem analiza impreuna oportunitatea unui proiect de dezvoltare customizata, prin care noi ne vom ocupa de toate fazele proiectului, conform planului agreat initial."
-                },{
-                    "icon": "",
-                    "secondTitle":
-                        "Servicii dezvoltare aplicatii mobile",
-                    "paragraph":
-                        ""
-                },{
-                    "icon": "SiMaterialdesign",
-                    "secondTitle":
-                        "UI & UX design",
-                    "paragraph":
-                        " - Dezvoltam prototipuri, mockup-uri si interfete de aplicatii mobile. Suntem specializati intr-o paleta larga de abordari, de la cele mai simple si curate interfete pana la utilizarea de controale si meniuri extrem de sofisticate. Indiferent de abordarea aleasa, ne asiguram ca produsul livrat satisface cele mai exigente asteptari si ca utilizeaza cele mai moderne practici in crearea unor experiente unice de interactiune cu utilizatorii finali."
-                },{
-                    "icon": "FaConnectdevelop",
-                    "secondTitle":
-                        "Mobile App Development and Testing",
-                    "paragraph":
-                        " - Suntem permanent la curent cu cele mai moderne metodologii in dezvoltarea aplicatiilor mobile. Plecand de la conceptualizare, analiza de business si prototipare si pana la dezvoltare, testare, mentenanta si suport tehnic, asiguram transparenta totala in fiecare faza de dezvoltare a proiectulului. Putem adauga functionalitati in aplicatii curente sau va putem asista in integrarea aplicatiilor curente cu solutii terte."
-                },{
-                    "icon": "BsWrench",
-                    "secondTitle":
-                        "Mobile App Maintenance",
-                    "paragraph":
-                        " - Toate aplicatiile mobile dezvoltate de noi beneficiaza de mentenanta si suport tehnic dupa lansarea in productie. Ne asiguram astfel ca fiecare proiect este permanent actualizat cu ultimele tehnologii si ca functioneaza la paramentrii optimi. Oferim in plus asistenta tehnica, back-up si suport tehnic in optimizarea performantei pe noile versiuni Android sau Windows lansate de producatori."
-                },{
-                    "icon": "",
-                    "secondTitle":
-                        "De ce SYSTEMSOONT?",
-                    "paragraph":
-                        ""
-                },{
-                    "icon": "IoCheckmarkDone",
-                    "secondTitle":
-                        "Maturitate",
-                    "paragraph":
-                        " - Inca de la aparitia telefoanelor inteligente si a dispozitivelor conectate la Internet, am inteles avantajul disponibilitatii informatiei in orice moment, din orice loc. Dezvoltam aplicatii mobile de aproape 10 ani."
-                },{
-                    "icon": "IoCheckmarkDone",
-                    "secondTitle":
-                        "Know-how business",
-                    "paragraph":
-                        " - Numarul mare de aplicatii mobile dezvoltate in domenii extrem de diverse, ne ofera o intelegere profunda a modului in care accesarea rapida a informatiilor, din orice loc, este critica pentru sustinerea afacerilor."
-                },{
-                    "icon": "IoCheckmarkDone",
-                    "secondTitle":
-                        "Expertiza si senioritate",
-                    "paragraph":
-                        " - Utilizam cele mai moderne tehnologii si metodologii folosite in dezvoltarea de aplicatii mobile. Media de senioritate in cadrul companiei este de peste 5 ani."
-                },{
-                    "icon": "IoCheckmarkDone",
-                    "secondTitle":
-                        "Time to market",
-                    "paragraph":
-                        " - Intelegem urgenta si graba clientilor. Pentru ca stim care este impactul in business al acestor aplicatii. Asiguram cea mai buna calitate intr-un timp extrem de scazut, conform planului de proiect agreat."
-                }
-            ]
-    },
-    "AppWeb" :{
-        "title": "Aplicatii Web",
-        "mainTitle":"",
+        "mainTitle": " ",
         "details": [
             {
                 "icon": "",
-                "secondTitle":"Model flexibil de lucru",
-                "paragraph":
-                    "Poti solicita resurse specializate, care sa lucreze alaturi de tine si in coordonarea ta, ori putem analiza impreuna oportunitatea unui proiect de dezvoltare customizata, prin care noi ne vom ocupa de toate fazele proiectului, conform planului agreat initial."
+                "secondTitle": "Model flexibil de lucru",
+                "paragraph": "Poti solicita resurse specializate, care sa lucreze alaturi de tine si in coordonarea ta, ori putem analiza impreuna oportunitatea unui proiect de dezvoltare customizata, prin care noi ne vom ocupa de toate fazele proiectului, conform planului agreat initial."
             },
             {
                 "icon": "",
-                "secondTitle": "Multiple limbaje de programare",
-                "paragraph": "Dezvoltam aplicatii web flexibile, interactive, dinamice, cu design placut intr-o varietate de limbaje de programare si framework-uri: Solutii: Responsive Websites, Business Portals, Content Management Systems. Servicii: Scenarii de accesare si navigare, dezvoltare wireframes si mockups, user stories, testari de usabilitate, dezvoltare, testare, suport tehnic si mentenanta. Limbaje de programare: ASP.NET, HTML5, CSS3, JavaScript Framework-uri: Bootstrap, AngularJS, React.js"
-            },
-            {
-                "icon": "",
-                "secondTitle": "Servicii dezvoltare aplicatii web",
-                "paragraph":
-                    ""
+                "secondTitle": "Servicii dezvoltare aplicatii mobile",
+                "paragraph": ""
             },
             {
                 "icon": "SiMaterialdesign",
                 "secondTitle": "UI & UX design",
-                "paragraph":
-                    " - Dezvoltam prototipuri, mockup-uri si interfete de aplicatii web. Suntem specializati intr-o paleta larga de abordari, de la cele mai simple si curate interfete pana la utilizarea de controale si meniuri extrem de sofisticate. Indiferent de abordarea aleasa, ne asiguram ca produsul livrat satisface cele mai exigente asteptari si ca utilizeaza cele mai moderne practici in crearea unor experiente unice de interactiune cu utilizatorii finali."
+                "paragraph": " - Dezvoltam prototipuri, mockup-uri si interfete de aplicatii mobile. Suntem specializati intr-o paleta larga de abordari, de la cele mai simple si curate interfete pana la utilizarea de controale si meniuri extrem de sofisticate. Indiferent de abordarea aleasa, ne asiguram ca produsul livrat satisface cele mai exigente asteptari si ca utilizeaza cele mai moderne practici in crearea unor experiente unice de interactiune cu utilizatorii finali."
             },
             {
                 "icon": "FaConnectdevelop",
-                "secondTitle": "Development and Testing",
-                "paragraph":
-                    " - Suntem permanent la curent cu cele mai moderne metodologii in dezvoltarea aplicatiilor web. Plecand de la conceptualizare, analiza de business si prototipare si pana la dezvoltare, testare, mentenanta si suport tehnic, asiguram transparenta totala in fiecare faza de dezvoltare a proiectulului. Putem adauga functionalitati in aplicatii curente sau va putem asista in integrarea aplicatiilor curente cu solutii terte."
+                "secondTitle": "Mobile App Development and Testing",
+                "paragraph": " - Suntem permanent la curent cu cele mai moderne metodologii in dezvoltarea aplicatiilor mobile. Plecand de la conceptualizare, analiza de business si prototipare si pana la dezvoltare, testare, mentenanta si suport tehnic, asiguram transparenta totala in fiecare faza de dezvoltare a proiectulului. Putem adauga functionalitati in aplicatii curente sau va putem asista in integrarea aplicatiilor curente cu solutii terte."
             },
             {
                 "icon": "BsWrench",
-                "secondTitle": "Maintenance",
-                "paragraph":
-                    " - Toate aplicatiile web dezvoltate de noi beneficiaza de mentenanta si suport tehnic dupa lansarea in productie. Ne asiguram astfel ca fiecare proiect este permanent actualizat cu ultimele tehnologii si ca functioneaza la paramentrii optimi. Oferim asistenta tehnica, back-up si suport tehnic in optimizarea performantei pe noile versiuni WorldPress lansate."
+                "secondTitle": "Mobile App Maintenance",
+                "paragraph": " - Toate aplicatiile mobile dezvoltate de noi beneficiaza de mentenanta si suport tehnic dupa lansarea in productie. Ne asiguram astfel ca fiecare proiect este permanent actualizat cu ultimele tehnologii si ca functioneaza la paramentrii optimi. Oferim in plus asistenta tehnica, back-up si suport tehnic in optimizarea performantei pe noile versiuni Android sau Windows lansate de producatori."
             },
             {
                 "icon": "",
                 "secondTitle": "De ce SYSTEMSOONT?",
-                "paragraph":
-                    ""
+                "paragraph": ""
             },
             {
                 "icon": "IoCheckmarkDone",
                 "secondTitle": "Maturitate",
-                "paragraph":
-                    " - De peste 10 ani, inca de la adoptarea primelor aplicatii web intr-o varietate de domenii, in toate industriile, am inteles avantajul disponibilitatii informatiei in orice moment, din orice loc."
+                "paragraph": " - Inca de la aparitia telefoanelor inteligente si a dispozitivelor conectate la Internet, am inteles avantajul disponibilitatii informatiei in orice moment, din orice loc. Dezvoltam aplicatii mobile de aproape 10 ani."
             },
             {
                 "icon": "IoCheckmarkDone",
                 "secondTitle": "Know-how business",
-                "paragraph":
-                    " - Numarul mare de aplicatii web dezvoltate in domenii extrem de diverse, ne ofera o intelegere profunda a modului in care accesarea informatiilor are inpact in dezvoltarea afacerilor."
+                "paragraph": " - Numarul mare de aplicatii mobile dezvoltate in domenii extrem de diverse, ne ofera o intelegere profunda a modului in care accesarea rapida a informatiilor, din orice loc, este critica pentru sustinerea afacerilor."
             },
             {
                 "icon": "IoCheckmarkDone",
                 "secondTitle": "Expertiza si senioritate",
-                "paragraph":
-                    " - Utilizam cele mai moderne tehnologii si metodologii folosite in dezvoltarea de aplicatii mobile. Media de senioritate in cadrul companiei este de peste 5 ani."
+                "paragraph": " - Utilizam cele mai moderne tehnologii si metodologii folosite in dezvoltarea de aplicatii mobile. Media de senioritate in cadrul companiei este de peste 5 ani."
             },
             {
                 "icon": "IoCheckmarkDone",
                 "secondTitle": "Time to market",
-                "paragraph":
-                    " - Intelegem urgenta si graba clientilor. Pentru ca stim care este impactul in business al acestor aplicatii. Asiguram cea mai buna calitate intr-un timp extrem de scazut."
+                "paragraph": " - Intelegem urgenta si graba clientilor. Pentru ca stim care este impactul in business al acestor aplicatii. Asiguram cea mai buna calitate intr-un timp extrem de scazut, conform planului de proiect agreat."
             }
         ]
     },
-    "ConsulCloud" :{
-        "title":"Consultanta Cloud",
+    "AppWeb": {
+        "title": "Aplicatii Web",
+        "mainTitle": "",
+        "details": [
+            {
+                "icon": "HiOutlineArrowNarrowRight",
+                "secondTitle": "Model flexibil de lucru",
+                "paragraph": " Poti solicita resurse specializate, care sa lucreze alaturi de tine si in coordonarea ta, ori putem analiza impreuna oportunitatea unui proiect de dezvoltare customizata, prin care noi ne vom ocupa de toate fazele proiectului, conform planului agreat initial."
+            },
+            {
+                "icon": "HiOutlineArrowNarrowRight",
+                "secondTitle": "Multiple limbaje de programare",
+                "paragraph": " Dezvoltam aplicatii web flexibile, interactive, dinamice, cu design placut intr-o varietate de limbaje de programare si framework-uri: Solutii: Responsive Websites, Business Portals, Content Management Systems. Servicii: Scenarii de accesare si navigare, dezvoltare wireframes si mockups, user stories, testari de usabilitate, dezvoltare, testare, suport tehnic si mentenanta. Limbaje de programare: ASP.NET, HTML5, CSS3, JavaScript Framework-uri: Bootstrap, AngularJS, React.js"
+            },
+            {
+                "icon": "",
+                "secondTitle": "Servicii dezvoltare aplicatii web",
+                "paragraph": ""
+            },
+            {
+                "icon": "SiMaterialdesign",
+                "secondTitle": "UI & UX design",
+                "paragraph": " - Dezvoltam prototipuri, mockup-uri si interfete de aplicatii web. Suntem specializati intr-o paleta larga de abordari, de la cele mai simple si curate interfete pana la utilizarea de controale si meniuri extrem de sofisticate. Indiferent de abordarea aleasa, ne asiguram ca produsul livrat satisface cele mai exigente asteptari si ca utilizeaza cele mai moderne practici in crearea unor experiente unice de interactiune cu utilizatorii finali."
+            },
+            {
+                "icon": "FaConnectdevelop",
+                "secondTitle": "Development and Testing",
+                "paragraph": " - Suntem permanent la curent cu cele mai moderne metodologii in dezvoltarea aplicatiilor web. Plecand de la conceptualizare, analiza de business si prototipare si pana la dezvoltare, testare, mentenanta si suport tehnic, asiguram transparenta totala in fiecare faza de dezvoltare a proiectulului. Putem adauga functionalitati in aplicatii curente sau va putem asista in integrarea aplicatiilor curente cu solutii terte."
+            },
+            {
+                "icon": "BsWrench",
+                "secondTitle": "Maintenance",
+                "paragraph": " - Toate aplicatiile web dezvoltate de noi beneficiaza de mentenanta si suport tehnic dupa lansarea in productie. Ne asiguram astfel ca fiecare proiect este permanent actualizat cu ultimele tehnologii si ca functioneaza la paramentrii optimi. Oferim asistenta tehnica, back-up si suport tehnic in optimizarea performantei pe noile versiuni WorldPress lansate."
+            },
+            {
+                "icon": "",
+                "secondTitle": "De ce SYSTEMSOONT?",
+                "paragraph": ""
+            },
+            {
+                "icon": "IoCheckmarkDone",
+                "secondTitle": "Maturitate",
+                "paragraph": " - De peste 10 ani, inca de la adoptarea primelor aplicatii web intr-o varietate de domenii, in toate industriile, am inteles avantajul disponibilitatii informatiei in orice moment, din orice loc."
+            },
+            {
+                "icon": "IoCheckmarkDone",
+                "secondTitle": "Know-how business",
+                "paragraph": " - Numarul mare de aplicatii web dezvoltate in domenii extrem de diverse, ne ofera o intelegere profunda a modului in care accesarea informatiilor are inpact in dezvoltarea afacerilor."
+            },
+            {
+                "icon": "IoCheckmarkDone",
+                "secondTitle": "Expertiza si senioritate",
+                "paragraph": " - Utilizam cele mai moderne tehnologii si metodologii folosite in dezvoltarea de aplicatii mobile. Media de senioritate in cadrul companiei este de peste 5 ani."
+            },
+            {
+                "icon": "IoCheckmarkDone",
+                "secondTitle": "Time to market",
+                "paragraph": " - Intelegem urgenta si graba clientilor. Pentru ca stim care este impactul in business al acestor aplicatii. Asiguram cea mai buna calitate intr-un timp extrem de scazut."
+            }
+        ]
+    },
+    "ConsulCloud": {
+        "title": "Consultanta Cloud",
         "details": [
             {
                 "icon": "GiMagnifyingGlass",
-                "secondTitle":
-                    "Analiza infrastructurii informatice.",
-                "paragraph":
-                    " - Solutii software implementate pentru identificarea componentelor care pot functiona cel mai bine in cloud."
+                "secondTitle": "Analiza infrastructurii informatice.",
+                "paragraph": " - Solutii software implementate pentru identificarea componentelor care pot functiona cel mai bine in cloud."
             },
-            {   
+            {
                 "icon": "BsNewspaper",
                 "secondTitle": "Intelegerea tipurilor de date.",
-                "paragraph":
-                    " - Noi lucram cu organizatia pentru alegerea variantei optime de cloud public, privat sau hibrid."
+                "paragraph": " - Noi lucram cu organizatia pentru alegerea variantei optime de cloud public, privat sau hibrid."
             },
-            {   
+            {
                 "icon": "ImPencil2",
                 "secondTitle": "Definirea strategiei de migrare.",
-                "paragraph":
-                    " - Tinem cont de obiectivele de business, cresterea competitivitatii afacerii si flexibilitatii infrastructurii IT."
+                "paragraph": " - Tinem cont de obiectivele de business, cresterea competitivitatii afacerii si flexibilitatii infrastructurii IT."
             },
-            {   
+            {
                 "icon": "GoSettings",
                 "secondTitle": "Analiza proceselor curente.",
-                "paragraph":
-                    " - Iti recomandam cele mai potrivite tehnologii."
+                "paragraph": " - Iti recomandam cele mai potrivite tehnologii."
             },
-            {   
+            {
                 "icon": "FaPaperPlane",
                 "secondTitle": "Livrarea efectiva a solutiei.",
-                "paragraph":
-                    " - Prin echipe de specialisti in tehnologiile selectate."
+                "paragraph": " - Prin echipe de specialisti in tehnologiile selectate."
             }
         ]
     },
-    "ImplementCloud" :{
+    "ImplementCloud": {
         "title": "Implementare Cloud",
-        "mainTitle":" Astfel oferim o gama larga de solutii:",
+        "mainTitle": " Astfel oferim o gama larga de solutii:",
         "details": [
             {
                 "icon": "GiBugleCall",
-                "secondTitle":
-                    "",
-                "paragraph":
-                    " Serviciile noastre de implementare ajuta clientii sa isi atinga rapid obiectivele de afaceri pentru utilizarea modelului cloud si sa transforme cheltuielile de capital in cheltuieli operationale. Serviciile Bento Cloud Implementation va ajuta la planificarea, evaluarea sistemului actual, construirea, validarea si verificarea calitatii aplicatiilor."
+                "secondTitle": "",
+                "paragraph": " Serviciile noastre de implementare ajuta clientii sa isi atinga rapid obiectivele de afaceri pentru utilizarea modelului cloud si sa transforme cheltuielile de capital in cheltuieli operationale. Serviciile SYSTEMSOONT Cloud Implementation va ajuta la planificarea, evaluarea sistemului actual, construirea, validarea si verificarea calitatii aplicatiilor."
             },
             {
                 "icon": "AiOutlineApartment",
-                "secondTitle":
-                    "Infrastructura ca serviciu",
-                "paragraph":
-                    " - Alocarea rapida, prin doar cateva click-uri, de resurse de calcul dintr-un server virtualizat, cu o configuratie custom care se adapteaza nevoilor specifice fiecarui client."
+                "secondTitle": "Infrastructura ca serviciu",
+                "paragraph": " - Alocarea rapida, prin doar cateva click-uri, de resurse de calcul dintr-un server virtualizat, cu o configuratie custom care se adapteaza nevoilor specifice fiecarui client."
             },
             {
                 "icon": "FiLayers",
-                "secondTitle":
-                    "Platformă ca serviciu",
-                "paragraph":
-                    " - Platforme cloud dedicate, cum ar fi Microsoft Azure, livrate ca medii de lucru dedicate sau partajate, ce pot fi customizate cerintelor specifice aplicatiilor software existente."
+                "secondTitle": "Platformă ca serviciu",
+                "paragraph": " - Platforme cloud dedicate, cum ar fi Microsoft Azure, livrate ca medii de lucru dedicate sau partajate, ce pot fi customizate cerintelor specifice aplicatiilor software existente."
             },
             {
                 "icon": "FaCode",
-                "secondTitle":
-                    "Software ca serviciu",
-                "paragraph":
-                    " - Folosirea aplicatiilor in cloud care includ o interfata web, cum ar fi Microsoft SharePoint Online, OptimumDesk sau Google Docs in vederea adoptiei rapide a acestora."
+                "secondTitle": "Software ca serviciu",
+                "paragraph": " - Folosirea aplicatiilor in cloud care includ o interfata web, cum ar fi Microsoft SharePoint Online, OptimumDesk sau Google Docs in vederea adoptiei rapide a acestora."
             },
             {
                 "icon": "IoServerOutline",
-                "secondTitle":
-                    "Storage ca serviciu",
-                "paragraph":
-                    " - Utilizarea spatiilor de stocare in cloud, ca OneDrive sau DropBox pentru a imbunatatii coloaborarea, pentru a stoca si a accesa in siguranta documente de oriunde si de pe orice dispozitiv conectat a internet."
+                "secondTitle": "Storage ca serviciu",
+                "paragraph": " - Utilizarea spatiilor de stocare in cloud, ca OneDrive sau DropBox pentru a imbunatatii coloaborarea, pentru a stoca si a accesa in siguranta documente de oriunde si de pe orice dispozitiv conectat a internet."
             },
             {
                 "icon": "BsFillChatQuoteFill",
-                "secondTitle":
-                    "Comunicarea ca serviciu",
-                "paragraph":
-                    " - Cresterea productivitatii angajatilor si a agilitatii organizatiei prin utilizarea de solutii de comunicatii unificate, gazduite intr-un centru de date, ca Microsoft Skype for Business / Slack."
+                "secondTitle": "Comunicarea ca serviciu",
+                "paragraph": " - Cresterea productivitatii angajatilor si a agilitatii organizatiei prin utilizarea de solutii de comunicatii unificate, gazduite intr-un centru de date, ca Microsoft Skype for Business / Slack."
             }
         ]
     },
-    "MigraCloud" :{
+    "MigraCloud": {
         "title": "Migrare Cloud",
         "details": [
             {
-                "icon":"BsArrowLeftRight",
+                "icon": "BsArrowLeftRight",
                 "secondTitle": "Lift and Shift",
-                "paragraph":
-                    " - O strategie lift and shift presupune maparea si migrarea arhitecturii curente in cloud fara niciun re-design al arhitecturii curente. Practic, infrastructura actuala este migrata asa cum este, principalul beneficiu urmarit fiind eliminarea costurilor de mentenanta a sistemelor si aplicatiilor traditionale. Eliminarea redesign-ului arhitecturii scade substantial timpul si costurile de migrare insa prin aceasta metoda nu veti beneficia de avantajele unor aplicatii native in cloud."
+                "paragraph": " - O strategie lift and shift presupune maparea si migrarea arhitecturii curente in cloud fara niciun re-design al arhitecturii curente. Practic, infrastructura actuala este migrata asa cum este, principalul beneficiu urmarit fiind eliminarea costurilor de mentenanta a sistemelor si aplicatiilor traditionale. Eliminarea redesign-ului arhitecturii scade substantial timpul si costurile de migrare insa prin aceasta metoda nu veti beneficia de avantajele unor aplicatii native in cloud."
             },
             {
-                "icon":"GiBallPyramid",
+                "icon": "GiBallPyramid",
                 "secondTitle": "Migrare PaaS",
-                "paragraph":
-                    " - O migrare de tip Platform as a Service in cloud, pe platforme dedicate Microsoft Azure sau Amazon AWS, va ofera toate beneficiile unei arhitecturi scalabile, flexibile, cu disponibilitate garantata prin contract si mecanisme de securizare si recuperare de date extrem de avansate. In plus, va asigurati un mediu de lucru la cele mai inalte standarde existente azi pe plan global, in care functioneaza peste 80% dintre companiile din Top Fortune 500."
+                "paragraph": " - O migrare de tip Platform as a Service in cloud, pe platforme dedicate Microsoft Azure sau Amazon AWS, va ofera toate beneficiile unei arhitecturi scalabile, flexibile, cu disponibilitate garantata prin contract si mecanisme de securizare si recuperare de date extrem de avansate. In plus, va asigurati un mediu de lucru la cele mai inalte standarde existente azi pe plan global, in care functioneaza peste 80% dintre companiile din Top Fortune 500."
             },
             {
-                "icon":"GiGears",
+                "icon": "GiGears",
                 "secondTitle": "Integrare perfecta",
-                "paragraph":
-                    " - Cu resursele existente prin cea mai mare retea de conexiuni dedicate, baze de date hibride, solutii de stocare si criptare."
+                "paragraph": " - Cu resursele existente prin cea mai mare retea de conexiuni dedicate, baze de date hibride, solutii de stocare si criptare."
             },
             {
-                "icon":"GoLock",
+                "icon": "GoLock",
                 "secondTitle": "Siguranta",
-                "paragraph":
-                    " - Fiecare bit de informatie este replicat de trei ori, ceea ce ar fi extrem de scump prin solutiile hardware traditionale."
+                "paragraph": " - Fiecare bit de informatie este replicat de trei ori, ceea ce ar fi extrem de scump prin solutiile hardware traditionale."
             },
             {
-                "icon":"GiFlexibleStar",
+                "icon": "GiFlexibleStar",
                 "secondTitle": "Flexibilitate",
-                "paragraph":
-                    " - Azure este construit pentru orice fel de proiecte, de la teste de dezvoltare pana la lansari globale de produse."
+                "paragraph": " - Azure este construit pentru orice fel de proiecte, de la teste de dezvoltare pana la lansari globale de produse."
             },
             {
-                "icon":"IoEarthOutline",
+                "icon": "IoEarthOutline",
                 "secondTitle": "Reputatie globala",
-                "paragraph":
-                    " - Peste 66% din companiile Fortune 500 au ales sa isi deruleze afacerile in Microsoft Azure."
+                "paragraph": " - Peste 66% din companiile Fortune 500 au ales sa isi deruleze afacerile in Microsoft Azure."
             }
         ]
     },
@@ -266,88 +221,74 @@
         "title": "IT Service Desk",
         "details": [
             {
-                "icon":"CgRadioCheck",
+                "icon": "CgRadioCheck",
                 "secondTitle": "",
-                "paragraph":
-                    " Conform unui studiu IHS publicat in 2017, caderile de infrastructura in companii medii, cu cifra de afaceri de peste $100M si 500 de angajati, au provocat daune estimate la $1M anual, in timp ce marile corporatii, cu peste $1Mld si 10,000 de angajati, au estimat pierderi de $60M anual. 40% din cauzele acestor pierderi sunt atribuite incidentelor de natura tehnica la nivelul infrastructurii IT, in timp ce 25% din cauze sunt atribuite furnizorilor de servicii sau erorilor umane, si doar 10% din cauze sunt atribuite atacurilor cibernetice."
+                "paragraph": " Conform unui studiu IHS publicat in 2017, caderile de infrastructura in companii medii, cu cifra de afaceri de peste $100M si 500 de angajati, au provocat daune estimate la $1M anual, in timp ce marile corporatii, cu peste $1Mld si 10,000 de angajati, au estimat pierderi de $60M anual. 40% din cauzele acestor pierderi sunt atribuite incidentelor de natura tehnica la nivelul infrastructurii IT, in timp ce 25% din cauze sunt atribuite furnizorilor de servicii sau erorilor umane, si doar 10% din cauze sunt atribuite atacurilor cibernetice."
             },
             {
-                "icon":"CgRadioCheck",
+                "icon": "CgRadioCheck",
                 "secondTitle": "",
-                "paragraph":
-                    " Pentru a minimiza impactul incidentelor la nivelul infrastructurii IT, Bento a dezvoltat pachetul Bento IT Service Desk, care acopera instalarea, configurarea si managementul infrastructurii IT, precum si consultanta in definirea solutiilor potrivite de arhitectura, design si procese IT. Bento IT Service Desk este disponibil 24/7, fiind deja utilizat de companii atat din Romania cat si din USA."
+                "paragraph": " Pentru a minimiza impactul incidentelor la nivelul infrastructurii IT, SYSTEMSOONT a dezvoltat pachetul SYSTEMSOONT IT Service Desk, care acopera instalarea, configurarea si managementul infrastructurii IT, precum si consultanta in definirea solutiilor potrivite de arhitectura, design si procese IT. SYSTEMSOONT IT Service Desk este disponibil 24/7, fiind deja utilizat de companii atat din Romania cat si din USA."
             },
             {
-                "icon":"AiOutlineCheck",
+                "icon": "AiOutlineCheck",
                 "secondTitle": "Urmarire si monitorizare in timp real a performantei infrastructurii IT",
-                "paragraph":
-                    " - Serviciul presupune urmarirea si monitorizarea in timp real a performantei tuturor echipamentelor si infrastructurii IT din cadrul unei organizatii. Bento IT Service Desk include conversia automata a e-mailurilor de incidente in tickete, ticket management, rutare automata spre persoanele cele mai calificate in rezolvarea incidentului, prioritizare, notificari de prelucare sau solutionare automate, precum si raportare lunara a incidentelor la nivel de utilizator, statie, departament sau companie."
+                "paragraph": " - Serviciul presupune urmarirea si monitorizarea in timp real a performantei tuturor echipamentelor si infrastructurii IT din cadrul unei organizatii. SYSTEMSOONT IT Service Desk include conversia automata a e-mailurilor de incidente in tickete, ticket management, rutare automata spre persoanele cele mai calificate in rezolvarea incidentului, prioritizare, notificari de prelucare sau solutionare automate, precum si raportare lunara a incidentelor la nivel de utilizator, statie, departament sau companie."
             },
             {
-                "icon":"AiOutlineCheck",
+                "icon": "AiOutlineCheck",
                 "secondTitle": "Vizite proactive la sediul clientului",
-                "paragraph":
-                    " - Optional, Bento IT Service Desk ofera vizite proactive la sediul clientului, la frecvente pre-stabilite prin contactul de servicii, timp limita de interventie si solutionare pe tipuri de incidente, back-up automat astfel incat impactul la nivel informational sa fie minimal in cazuri de forta majora, precum si pregatirea personalului clientului in tehnici de preventie."
+                "paragraph": " - Optional, SYSTEMSOONT IT Service Desk ofera vizite proactive la sediul clientului, la frecvente pre-stabilite prin contactul de servicii, timp limita de interventie si solutionare pe tipuri de incidente, back-up automat astfel incat impactul la nivel informational sa fie minimal in cazuri de forta majora, precum si pregatirea personalului clientului in tehnici de preventie."
             },
             {
-                "icon":"",
+                "icon": "",
                 "secondTitle": "Beneficii Client?",
-                "paragraph":
-                    ""
+                "paragraph": ""
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Singur punct de contact pentru solutionarea unui incident tehnic"
+                "paragraph": "  Singur punct de contact pentru solutionarea unui incident tehnic"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Interfata intuitiva de urmarire a solutionarii incidentului raportat"
+                "paragraph": "  Interfata intuitiva de urmarire a solutionarii incidentului raportat"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Crestere productivitate, minimizare caderi infrastructura IT"
+                "paragraph": "  Crestere productivitate, minimizare caderi infrastructura IT"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Vizite proactive de monitorizare a performantei infrastructurii IT"
+                "paragraph": "  Vizite proactive de monitorizare a performantei infrastructurii IT"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Rapoarte la nivel de utilizator, departament sau companie"
+                "paragraph": "  Rapoarte la nivel de utilizator, departament sau companie"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Timp de rezolvare garantat prin SLA"
+                "paragraph": "  Timp de rezolvare garantat prin SLA"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Interventii nelimitate la sediul clientului"
+                "paragraph": "  Interventii nelimitate la sediul clientului"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Suport IT remote, 24/7, multi-limba"
+                "paragraph": "  Suport IT remote, 24/7, multi-limba"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "  Gestiunea incidentelor – identificare, categorisire, prioritizare, diagnoza, escaladare in caz de nevoie catre nivele superioare de competenta, rezolutie, inchidere, notificare"
+                "paragraph": "  Gestiunea incidentelor – identificare, categorisire, prioritizare, diagnoza, escaladare in caz de nevoie catre nivele superioare de competenta, rezolutie, inchidere, notificare"
             }
         ]
     },
@@ -355,251 +296,270 @@
         "title": "Beneficii Client",
         "details": [
             {
-                "icon":"CgRadioCheck",
+                "icon": "CgRadioCheck",
                 "secondTitle": "",
-                "paragraph":
-                    "  Cu ajutorul unei echipe certificate in tehnologii Microsoft, Unix sau Linux, cu peste 10 ani de experienta, beneficiati de un pachet complet de servicii de proiectare, instalare, configurare si actualizare atat a sistemelor de operare cat si a dispozitivelor de retea."
+                "paragraph": "  Cu ajutorul unei echipe certificate in tehnologii Microsoft, Unix sau Linux, cu peste 10 ani de experienta, beneficiati de un pachet complet de servicii de proiectare, instalare, configurare si actualizare atat a sistemelor de operare cat si a dispozitivelor de retea."
             },
             {
-                "icon":"CgRadioCheck",
-                "secondTitle":
-                    "",
-                "paragraph":
-                    "Prin pachetul de servicii Bento System Administration obtineti o functionare optima a echipamentelor si asigurati productivitatea maxima a angajatilor."
+                "icon": "CgRadioCheck",
+                "secondTitle": "",
+                "paragraph": "Prin pachetul de servicii SYSTEMSOONT System Administration obtineti o functionare optima a echipamentelor si asigurati productivitatea maxima a angajatilor."
             },
             {
-                "icon":"",
+                "icon": "",
                 "secondTitle": " Beneficii Client?",
-                "paragraph":
-                    ""
+                "paragraph": ""
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Reducerea intreruperilor de activitate si rezolvarea rapida a oricarui tip de incidente."
+                "paragraph": " Reducerea intreruperilor de activitate si rezolvarea rapida a oricarui tip de incidente."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Monitorizarea 24/7 a performantei serverelor si infrastructurii IT."
+                "paragraph": " Monitorizarea 24/7 a performantei serverelor si infrastructurii IT."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Administrarea solutiilor de tip ERP/CRP si management eficient al resurselor companiei."
+                "paragraph": " Administrarea solutiilor de tip ERP/CRP si management eficient al resurselor companiei."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Managementul licentelor si certificatelor software."
+                "paragraph": " Managementul licentelor si certificatelor software."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Garantare prin contract asupra nivelului de servicii agreat"
+                "paragraph": " Garantare prin contract asupra nivelului de servicii agreat"
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Monitorizarea aplicatiilor instalate la nivel de retea."
+                "paragraph": " Monitorizarea aplicatiilor instalate la nivel de retea."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Back-up pentru reluarea rapida a activitatii in cazuri de forta majora."
+                "paragraph": " Back-up pentru reluarea rapida a activitatii in cazuri de forta majora."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Servicii de recuperare de date in cazuri de forta majora."
+                "paragraph": " Servicii de recuperare de date in cazuri de forta majora."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Training specializat pentru echipa de administrare a clientului."
+                "paragraph": " Training specializat pentru echipa de administrare a clientului."
             }
         ]
     },
     "ManageRetea": {
-        "title":
-            "Beneficii Client",
+        "title": "Beneficii Client",
         "details": [
             {
-                "icon":"CgRadioCheck",
+                "icon": "CgRadioCheck",
                 "secondTitle": "",
-                "paragraph":
-                    " Importanta functionarii permanente, la parametrii optimi a infrastructurii de retea a dus la dezvoltarea pachetului de servicii Bento Network Management, optimizat pentru companii de orice dimensiune si complexitate."
+                "paragraph": " Importanta functionarii permanente, la parametrii optimi a infrastructurii de retea a dus la dezvoltarea pachetului de servicii SYSTEMSOONT Network Management, optimizat pentru companii de orice dimensiune si complexitate."
             },
             {
-                "icon":"CgRadioCheck",
+                "icon": "CgRadioCheck",
                 "secondTitle": "",
-                "paragraph":
-                    " Serviciul Bento Network Management este disponibil 24/7 si permite monitorizarea retelei, identificarea problemelor in timp real si preventia incidentelor cu impact major in functionarea infrastructurii IT."
+                "paragraph": " Serviciul SYSTEMSOONT Network Management este disponibil 24/7 si permite monitorizarea retelei, identificarea problemelor in timp real si preventia incidentelor cu impact major in functionarea infrastructurii IT."
             },
             {
-                "icon":"",
+                "icon": "",
                 "secondTitle": "Beneficii Client?",
-                "paragraph":
-                    ""
+                "paragraph": ""
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Administrarea utilizatorilor inregistrati in retea."
+                "paragraph": " Administrarea utilizatorilor inregistrati in retea."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Monitorizare permanenta, 24/7 a performantei retelei."
+                "paragraph": " Monitorizare permanenta, 24/7 a performantei retelei."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Garantare prin contract asupra nivelului de servicii agreat."
+                "paragraph": " Garantare prin contract asupra nivelului de servicii agreat."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Monitorizarea aplicatiilor instalate la nivel de retea."
+                "paragraph": " Monitorizarea aplicatiilor instalate la nivel de retea."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Reducerea intreruperilor de activitate la nivel de retea."
+                "paragraph": " Reducerea intreruperilor de activitate la nivel de retea."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Training specializat pentru echipa de administrare a clientului."
+                "paragraph": " Training specializat pentru echipa de administrare a clientului."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Mentenanta retelei pentru preventia aparitiei incidentelor."
+                "paragraph": " Mentenanta retelei pentru preventia aparitiei incidentelor."
             },
             {
-                "icon":"HiOutlineArrowNarrowRight",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    " Servicii de actualizare si implementare a patch-urilor."
+                "paragraph": " Servicii de actualizare si implementare a patch-urilor."
             }
         ]
     },
-    "SolVirtual":{
+    "SolVirtual": {
         "title": "Virtualization Solutions",
         "details": [
             {
-                "icon": "",
+                "icon": "CgRadioCheck",
                 "secondTitle": "Simplificati infrastructura IT",
-                "paragraph":
-                    "Virtualizarea este o solutie moderna, adoptata deja la scara larga de companii de toate dimensiunile. Prin intermediul virtualizarii este posibila rularea simultana a mai multor sisteme de operare pe un singur server sau calculator, nefiind deci necesara alocarea cate unui server dedicat fiecarui serviciu, cum era abordarea traditionala (server e-mail, server web, server telefonie, server aplicatii ERP sau CRM, etc)."
+                "paragraph": " Virtualizarea este o solutie moderna, adoptata deja la scara larga de companii de toate dimensiunile. Prin intermediul virtualizarii este posibila rularea simultana a mai multor sisteme de operare pe un singur server sau calculator, nefiind deci necesara alocarea cate unui server dedicat fiecarui serviciu, cum era abordarea traditionala (server e-mail, server web, server telefonie, server aplicatii ERP sau CRM, etc)."
             },
             {
-                "icon": "",
+                "icon": "CgRadioCheck",
                 "secondTitle": "Reduceti Costurile",
-                "paragraph":
-                    "Solutia virtualizarii simplifica astfel si reduce costurile tuturor activitatilor de administrare, copiere, backup sau deployment. Printre avantajele virtualizarii se numara si diminuarea consecintelor intreruperii unor aplicatii, cresterea flexibilitatii si scalabilitatii infrastructuii IT, cresterea disponibilitatii resurselor tehnice, precum si posibilitati de securizare sau recuperare a datelor mult mai avansate."
+                "paragraph": " Solutia virtualizarii simplifica astfel si reduce costurile tuturor activitatilor de administrare, copiere, backup sau deployment. Printre avantajele virtualizarii se numara si diminuarea consecintelor intreruperii unor aplicatii, cresterea flexibilitatii si scalabilitatii infrastructuii IT, cresterea disponibilitatii resurselor tehnice, precum si posibilitati de securizare sau recuperare a datelor mult mai avansate."
             },
             {
                 "icon": "FiLayers",
                 "secondTitle": "",
-                "paragraph":
-                    " Managementul centralizat al statiilor de lucru"
+                "paragraph": " Managementul centralizat al statiilor de lucru"
             },
             {
-                "icon": "",
+                "icon": "AiOutlineApartment",
                 "secondTitle": "",
-                "paragraph":
-                    " Independenta locatiei statiilor de lucru"
+                "paragraph": " Independenta locatiei statiilor de lucru"
             },
             {
-                "icon": "",
+                "icon": "BsBook",
                 "secondTitle": "",
-                "paragraph":
-                    " Disponibilitatea crescuta a infrastructurii"
+                "paragraph": " Disponibilitatea crescuta a infrastructurii"
             },
             {
-                "icon": "",
+                "icon": "BsArrowRepeat",
                 "secondTitle": "",
-                "paragraph":
-                    " Back-up centralizat pentru continuitatea afacerii"
+                "paragraph": " Back-up centralizat pentru continuitatea afacerii"
             },
             {
                 "icon": "",
                 "secondTitle": "La nivel de server, virtualizarea permite consolidarea tuturor aplicatiilor in doar cateva servere fizice, ceea ce ofera avantaje in reducerea de costuri, spatiu si energie:",
-                "paragraph":
-                    ""
+                "paragraph": ""
             },
             {
-                "icon": "",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "-Valorificare mai buna a resurselor existente"
+                "paragraph": " Valorificare mai buna a resurselor existente"
             },
             {
-                "icon": "",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "-Alocare mai eficienta a serverelor"
+                "paragraph": " Alocare mai eficienta a serverelor"
             },
             {
-                "icon": "",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "-Reducerea consumului de energie"
+                "paragraph": " Reducerea consumului de energie"
             },
             {
-                "icon": "",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "-Reducerea costurilor de mentenanta"
+                "paragraph": " Reducerea costurilor de mentenanta"
             },
             {
-                "icon": "",
+                "icon": "HiOutlineArrowNarrowRight",
                 "secondTitle": "",
-                "paragraph":
-                    "-Scalabilitate si flexibilitate crescute"
+                "paragraph": " Scalabilitate si flexibilitate crescute"
             }
         ]
     },
-    "HostCloud":{
-        "title": "Gazduire Web / E-Mail",
+    "HostCloud": {
+        "title": "Cloud Hosting",
         "details": [
             {
-                "icon":"",
-                "secondTitle": "GĂZDUIRE WEB PREMIUM",
-                "paragraph":
-                    "Beneficiază de viteza celui mai rapid web server"
+                "icon": "CgRadioCheck",
+                "secondTitle": "",
+                "paragraph": " Cloud Computing-ul presupune utilizarea memoriei, capacitatii de procesare si stocare a unor servere partajate si interconectate in Internet, fara ca utilizatorul sa cunoasca locul sau configuratia fizica a sistemelor care furnizeaza serviciul."
             },
             {
-                "icon":"",
-                "secondTitle": "Web Hosting",
-                "paragraph":
-                    "Sigurantă, viteză şi suport premium la preţuri basic. Vrei un site? Înregistrează aici un domeniu original, reînnoieşte-l dacă îl ai deja, alege-ţi pachetul de găzduire care ţi se potriveşte sau, în cazul in care ai unul, transferă-l fără bătăi de cap dacă vrei un hosting mai bun."
+                "icon": "",
+                "secondTitle": "Pentru ca utilizatorul plateste strict pe baza consumului efectuat, o solutie de Cloud Computing genereaza implicit o reducere a costurilor, dar si alte avantaje cum ar fi:",
+                "paragraph": " "
             },
             {
-                "icon":"",
-                "secondTitle": "SUPORTUL TEHNIC FACE DIFERENȚA",
-                "paragraph":
-                    "Diferenţa dintre un web hosting normal şi unul excelent este că problemele de găzduire apar mult mai rar, datorită tehnologiei superioare - şi când apar, găseşti mereu pe cineva capabil să le rezolve rapid, la doar un telefon distanță."
+                "icon": "AiOutlineTag",
+                "secondTitle": "",
+                "paragraph": " Zero investitie initiala. Costuri reduse, prin optimizarea resurselor necesare"
+            },
+            {
+                "icon": "BsArrowRepeat",
+                "secondTitle": "",
+                "paragraph": " Functionare continua, la parametrii maximi de performanta si disponibilitate"
+            },
+            {
+                "icon": "BsBook",
+                "secondTitle": "",
+                "paragraph": " Posibilitate de scalare rapida a resurselor IT, conform nevoilor afacerii"
+            },
+            {
+                "icon": "BiLogIn",
+                "secondTitle": "",
+                "paragraph": " Accesibilitate ridicata, din orice loc, in orice moment, de pe orice dispozitiv cu acces Internet"
+            },
+            {
+                "icon": "FiCheckCircle",
+                "secondTitle": "",
+                "paragraph": " Activare rapida, in cateva minute"
+            },
+            {
+                "icon": "AiOutlineLock",
+                "secondTitle": "",
+                "paragraph": " Protectie ridicata a datelor"
+            },
+            {
+                "icon": "BiUpArrowCircle",
+                "secondTitle": "",
+                "paragraph": " Disponibilitate peste 90%"
+            },
+            {
+                "icon": "BsPersonCheck",
+                "secondTitle": "",
+                "paragraph": " Asistenta tehnica non-stop, 24/7"
+            },
+            {
+                "icon": "",
+                "secondTitle": "Acoperim toata gama de servicii necesare migrarii de la o infrastructura traditionala spre solutii de cloud public, cum ar fi Microsoft Azure sau Amazon AWS. Pachetul SYSTEMSOONT Cloud Hosting inseamna:",
+                "paragraph": ""
+            },
+            {
+                "icon": "HiOutlineArrowNarrowRight",
+                "secondTitle": "",
+                "paragraph": " Servicii de tip “Managed”, care implica externalizarea completa a infrastructurii Cloud, modelata pe un SLA agreat."
+            },
+            {
+                "icon": "HiOutlineArrowNarrowRight",
+                "secondTitle": "",
+                "paragraph": " Servicii de consultanta si evaluare, prin care propunem solutii personalizate de reducere a costurilor prin migrarea in cloud."
+            },
+            {
+                "icon": "HiOutlineArrowNarrowRight",
+                "secondTitle": "",
+                "paragraph": " Servicii de implementare, prin care se configureaza componente ale platformei Cloud pentru a sustine serviciile IT necesare."
+            },
+            {
+                "icon": "HiOutlineArrowNarrowRight",
+                "secondTitle": "",
+                "paragraph": " Servicii de mentenanta si suport, prin care se asigura mentenanta reactiva si proactiva a tuturor serviciilor Cloud contractate."
             }
         ]
     }
 }
-

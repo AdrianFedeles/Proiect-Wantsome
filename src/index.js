@@ -22,79 +22,85 @@ const ManageRetea = buttons.ManageRetea;
 const SolVirtual = buttons.SolVirtual;
 
 ReactDOM.render(
-	<BrowserRouter>
-		<Switch>
-			<Switch>
-				<Route path="/" exact render={(props) => <Index {...props} />} />
-				<Route
-					path="/AppMobil"
-					component={() => <LinkTemplate details={AppMobil} />}
-				/>
-				<Route
-					path="/AppWeb"
-					component={() => <LinkTemplate details={AppWeb} />}
-				/>
-				<Route
-					path="/ConsulCloud"
-					component={() => <LinkTemplate details={ConsulCloud} />}
-				/>
-				<Route
-					path="/ImplementCloud"
-					component={() => <LinkTemplate details={ImplementCloud} />}
-				/>
-				<Route
-					path="/MigraCloud"
-					component={() => <LinkTemplate details={MigraCloud} />}
-				/>
-				<Route
-					path="/landing-page"
-					render={(props) => <AboutUs {...props} />}
-				/>
-				{/* <Route
+    <BrowserRouter>
+        <Switch>
+            <Switch>
+                <Route path='/' exact render={props => <Index {...props} />} />
+                <Route
+                    path='/AppMobil'
+                    component={() => <LinkTemplate details={AppMobil} />}
+                />
+                <Route
+                    path='/AppWeb'
+                    component={() => <LinkTemplate details={AppWeb} />}
+                />
+                <Route
+                    path='/ConsulCloud'
+                    component={() => <LinkTemplate details={ConsulCloud} />}
+                />
+                <Route
+                    path='/ImplementCloud'
+                    component={() => <LinkTemplate details={ImplementCloud} />}
+                />
+                <Route
+                    path='/MigraCloud'
+                    component={() => <LinkTemplate details={MigraCloud} />}
+                />
+                <Route
+                    path='/landing-page'
+                    render={props => <AboutUs {...props} />}
+                />
+                {/* <Route
 					path="/LendingPage"
 					component={() => <LinkTemplate details={LendingPage} />}
 				/> */}
-				<Route
-					path="/cookie"
-					component={() => (
-						<TermsTemplate firstLink="cookie" title="Cookie Policy" />
-					)}
-				/>
-				<Route
-					path="/terms"
-					component={() => (
-						<TermsTemplate firstLink="terms" title="Termeni si conditii" />
-					)}
-				/>
-				<Route
-					path="/gdpr"
-					component={() => (
-						<TermsTemplate firstLink="gdpr" title="GDPR Policy" />
-					)}
-				/>
-				<Route
-					path="/HostCloud"
-					component={() => <LinkTemplate details={HostCloud} />}
-				/>
-				<Route
-					path="/ServiciiHelp"
-					component={() => <LinkTemplate details={ServiciiHelp} />}
-				/>
-				<Route
-					path="/AdminSistemIt"
-					component={() => <LinkTemplate details={AdminSistemIt} />}
-				/>
-				{/* gazduire */}
-				<Route
-					path="/ManageRetea"
-					component={() => <LinkTemplate details={ManageRetea} />}
-				/>
-				<Route
-					path="/SolVirtual"
-					component={() => <LinkTemplate details={SolVirtual} />}
-				/>
-			</Switch>
-		</Switch>
-	</BrowserRouter>,
-	document.getElementById('root')
+                <Route
+                    path='/cookie'
+                    component={() => (
+                        <TermsTemplate
+                            firstLink='cookie'
+                            title='Cookie Policy'
+                        />
+                    )}
+                />
+                <Route
+                    path='/terms'
+                    component={() => (
+                        <TermsTemplate
+                            firstLink='terms'
+                            title='Termeni si conditii'
+                        />
+                    )}
+                />
+                <Route
+                    path='/gdpr'
+                    component={() => (
+                        <TermsTemplate firstLink='gdpr' title='GDPR Policy' />
+                    )}
+                />
+                <Route
+                    path='/HostCloud'
+                    component={() => <LinkTemplate details={HostCloud} />}
+                />
+                <Route
+                    path='/ServiciiHelp'
+                    component={() => <LinkTemplate details={ServiciiHelp} />}
+                />
+                <Route
+                    path='/AdminSistemIt'
+                    component={() => <LinkTemplate details={AdminSistemIt} />}
+                />
+                {/* gazduire */}
+                <Route
+                    path='/ManageRetea'
+                    component={() => <LinkTemplate details={ManageRetea} />}
+                />
+                <Route
+                    path='/SolVirtual'
+                    component={() => <LinkTemplate details={SolVirtual} />}
+                />
+            </Switch>
+        </Switch>
+    </BrowserRouter>,
+    document.getElementById('root')
 );
