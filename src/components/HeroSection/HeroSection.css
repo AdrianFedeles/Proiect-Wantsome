@@ -1,0 +1,39 @@
+.Hero_Section {
+	background-image: url(https://www.redhat.com/cms/managed-files/bg_grid-our-code-is-open_0.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 640px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+.Styled_Text_Hero_Section {
+	width: 34%;
+	height: 45%;
+	position: absolute;
+	font-size: 27px;
+	top: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	right: 51%;
+}
+.Hero_Section_Styled {
+	position: relative;
+	left: 0;
+	text-align: end;
+	direction: rtl;
+}
+.Color_bar_Vertical_Hero_Section,
+.Color_Bar_Horizontal_Hero_Section {
+	color: red;
+	font-size: 50px;
+}
+.Text_1 {
+	font-weight: 400;
+	color: white;
+	margin-bottom: 10%;
+}
+.Text_2 {
+	color: white;
+	margin-bottom: 10%;
+}

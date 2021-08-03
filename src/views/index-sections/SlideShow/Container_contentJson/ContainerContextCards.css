@@ -1,0 +1,21 @@
+.Link_Second_Container {
+    width: auto;
+    min-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.Paragraph_Button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 75px;
+    background-color: #f36f2e;
+    border: 2px solid;
+    border-color: #f36f2e;
+    border-radius: 5px;
+    color: white;
+}
+.Paragraph_Button i {
+    color: rgb(255, 255, 255);
+}
